@@ -3,7 +3,7 @@ name: humanizer
 description: Draft or revise substantial reader-facing prose so it sounds natural, specific, and consistent with the author's voice. Use for documents, reports, articles, emails, and requests to humanize, de-AI, or review AI-sounding text. Preserve facts, uncertainty, citations, and genre; do not apply to code or structured data unless prose editing is requested.
 license: MIT
 metadata:
-  version: "1.1.2"
+  version: "1.1.3"
   evidence-reviewed: "2026-10-26"
 ---
 

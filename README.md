@@ -1,8 +1,49 @@
 # Humanizer
 
-A writing skill for **Codex and Claude Code**. Draft or revise natural prose while preserving facts, uncertainty, citations, and the author's voice. Use it for reports, academic writing, articles, and emails.
+A writing skill for **Codex and Claude Code**, with particular attention to reports, academic work, and English/Norwegian prose. It helps make the writing clearer while preserving facts, uncertainty, citations, and the author's voice.
 
 English, Norwegian Bokmål, and Nynorsk have specific guidance. No Python, API key, or external service is required by the skill.
+
+## Why choose this Humanizer?
+
+Choose it when a fluent rewrite must preserve what the document actually establishes. Its instructions focus on decisions that matter in reports:
+
+- **Keep the evidence intact.** A simulation stays a simulation. Missing data do not become proof that nothing happened. Measurements, units, citations, and qualifications stay attached to their claims.
+- **Write natural Norwegian as well as English.** Dedicated guidance covers Bokmål/Nynorsk, decimal commas, compounds, English calques, and the writer's established word forms.
+- **Keep the right register.** A methods section can remain formal. Useful passive voice, technical terms, headings, and conclusions can stay. There is no universal ban on particular words or punctuation.
+- **Improve the argument before swapping words.** The skill examines paragraph purpose, repetition, and logical connections, then compares the revision with the source.
+- **Match the author without inventing a persona.** Writing samples guide expression; they do not supply new experiences or opinions. The default result is one revised text, with an explanation when requested.
+
+It is a good fit for technical and academic reports, school assignments, and other documents where precision matters. You can also use it for articles and emails. A clear passage may need almost no change.
+
+## An example
+
+**Before**
+
+> During the implementation of the evaluation process, a simulation of the regulator was carried out. It showed 5.02 V at a load of 0.40 A. It is important to emphasize that no physical prototype has been tested. These results should therefore be viewed as preliminary.
+
+**After**
+
+> The regulator simulation showed 5.02 V at a load of 0.40 A. No physical prototype has been tested, so the results remain preliminary.
+
+The padding is removed; the values, simulation status, and limit on the result remain. [More worked examples](references/examples.md) show language, voice, and preservation decisions.
+
+## How it compares
+
+These are the orientations of the versions reviewed on 26 October 2026. Several alternatives also protect facts and voice; those ideas are not exclusive to this project.
+
+| Skill | Particularly relevant when you want |
+| --- | --- |
+| **This Humanizer** | English/Norwegian report editing, explicit technical distinctions, and a simple default deliverable |
+| [Academic Humanizer](https://github.com/AIScientists-Dev/academic-humanizer) | A workflow focused on English papers and funding proposals |
+| [Hannsxpeter](https://github.com/hannsxpeter/humanizer) | Detailed voice matching, restraint checks, and an editing report |
+| [Blader](https://github.com/blader/humanizer) | A broad catalog of AI-writing patterns and examples |
+| [Milock](https://github.com/milock/humanizer) | Channel-specific editing and author/brand profiles |
+| [Stop Slop](https://github.com/hardikpandya/stop-slop) | A short, strongly prescriptive style guide |
+
+The local comparison did **not** establish this skill as the universal winner. Academic Humanizer and Hannsxpeter had no recorded fidelity issues in fourteen tasks; this project's older 1.1.0 had one minor issue. The reason to choose it is the combination of language coverage, document-specific preservation rules, and output style. Read the [comparison and its limits](COMPARISON.md) before treating the numbers as a ranking.
+
+The [background](BACKGROUND.md) explains the editing workflow and how research informed it. Neither page requires you to download the development files or test data.
 
 ## Install with Git
 
