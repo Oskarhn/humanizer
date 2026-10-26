@@ -6,6 +6,14 @@ Use it for reports, academic writing, articles, emails, or a draft that sounds g
 
 The skill works without Python, an API key, a detector, or network access. The optional local review and release tools need Python 3.10 or later. Your host model still runs under its own client's permissions and data policies.
 
+## Download with Git
+
+```sh
+git clone https://github.com/Oskarhn/humanizer.git humanizer
+```
+
+This downloads the source into a `humanizer` directory. To install directly into Codex or Claude Code, use the [client-specific Git commands](docs/installation.md#install-with-git).
+
 ## Start here
 
 Install the `humanizer` folder in your client's skill directory. Keep the supporting files with `SKILL.md`; copying that file alone leaves its references unavailable.

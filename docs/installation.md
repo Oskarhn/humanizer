@@ -15,7 +15,41 @@ These locations follow the [Codex skill documentation](https://learn.chatgpt.com
 
 A personal install is available across local projects. A project install can be committed for that team. Managed settings and client-specific visibility rules can restrict discovery.
 
-## Get the files
+## Install with Git
+
+With Git installed, clone directly into the personal skill directory for the client you use. Run the command in that client's environment, and check for an existing installation before adding another copy.
+
+Linux, macOS, or WSL:
+
+```sh
+# Codex
+git clone https://github.com/Oskarhn/humanizer.git "$HOME/.agents/skills/humanizer"
+
+# Claude Code
+git clone https://github.com/Oskarhn/humanizer.git "$HOME/.claude/skills/humanizer"
+```
+
+Windows PowerShell:
+
+```powershell
+# Codex
+git clone https://github.com/Oskarhn/humanizer.git "$env:USERPROFILE\.agents\skills\humanizer"
+
+# Native Windows Claude Code
+git clone https://github.com/Oskarhn/humanizer.git "$env:USERPROFILE\.claude\skills\humanizer"
+```
+
+Choose the command for each client you want to install. Git creates missing parent directories and refuses to clone over a nonempty destination. If your Claude shortcut runs WSL, use the Linux command inside WSL. After installation, follow [Confirm discovery](#confirm-discovery).
+
+To download a source checkout without installing it:
+
+```sh
+git clone https://github.com/Oskarhn/humanizer.git humanizer
+```
+
+These commands follow `main`. For the files of a specific release, add `--branch v1.1.1` to the clone command. A tag checkout has a detached HEAD and does not track later changes on `main`.
+
+## Get the files from a release ZIP
 
 Use a release ZIP built by this repository. It contains one top-level `humanizer` folder. Extract it to a temporary or downloads directory, then install that folder using the commands below. The examples start in the directory containing the extracted folder.
 
@@ -80,6 +114,17 @@ No physical prototype has been tested.
 The result should retain both values, simulation status, and the untested prototype. A folder existing on disk does not prove that a running session loaded it. If authentication fails before the model runs, fix the client login separately.
 
 ## Update
+
+For a Git installation tracking `main`, enter its `humanizer` directory and run:
+
+```sh
+git status --short
+git pull --ff-only
+```
+
+Review any local changes before updating. A fast-forward-only pull does not create a merge commit. For a checkout pinned to a release tag, deliberately select a newer tag or use the new release archive instead.
+
+For an installation copied from an archive:
 
 Keep a copy of the old installation outside any active skill-discovery directory. Close sessions that are using it, move the old directory to your backup location, then install the new folder at the original path. Check the skill list and run the small example again.
 
