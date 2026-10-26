@@ -1,0 +1,16 @@
+{
+  "initial_cases": 10,
+  "added_cases": 4,
+  "formatting_repair": [
+    "E07",
+    "E08"
+  ],
+  "reason": "Initial JSON encoded literal backslash-n instead of real newlines. Initial outputs retained separately and excluded for these two cases.",
+  "new_cases_status": "Post-initial stress set designed after inspecting a subset of initial outputs; not a fully preregistered held-out benchmark.",
+  "new_cases_purpose": [
+    "minimal humanizer brief",
+    "substantive paragraph restructuring",
+    "voice transfer without importing events",
+    "drafting from incomplete measurements"
+  ]
+}

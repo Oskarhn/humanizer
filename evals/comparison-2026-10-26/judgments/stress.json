@@ -1,0 +1,895 @@
+[
+  {
+    "id": "E11",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": true,
+            "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": true,
+            "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": true,
+            "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": true,
+            "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "material",
+        "issues": [
+          "Invents the reporting group as the people who ran and observed the control: 'Vi prøvde', 'observerte vi'. The source identifies no operator.",
+          "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 3
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": false,
+            "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": false,
+            "evidence": "'Vi prøvde' and 'observerte vi' assign the control to an unsupported actor. The separate conclusion correctly says the result cannot establish defective protection."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": false,
+            "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": true,
+            "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": true,
+            "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "minor",
+        "issues": [
+          "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": false,
+            "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": false,
+            "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": true,
+            "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": true,
+            "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "minor",
+        "issues": [
+          "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+            "passed": false,
+            "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+          },
+          {
+            "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+            "passed": true,
+            "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+          },
+          {
+            "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+            "passed": false,
+            "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "D",
+      "F"
+    ],
+    "reason": "A, B and D are identical; F is equivalent. They preserve both the unnamed operator and the distinction between available evidence and conclusions. The other variants add attribution or strengthen the temperature statement.",
+    "eval_limitations": []
+  },
+  {
+    "id": "E12",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Groups cost and thermal evidence, then connects the lower calculated temperature to cost and the enclosure constraint, and closes with the unresolved tradeoff."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Groups cost and thermal evidence, integrates installed heights with feasibility in the second paragraph, and separates the unresolved decision and testing status."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Groups thermal estimates with their limitation and untested status, gives geometry a separate paragraph, then explicitly weighs price/fit against cooling."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Organizes the discussion around thermal evidence, a distinct 'Plassbegrensningen taler for A' argument, and a balanced unresolved conclusion."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Groups thermal evidence and its limitation, separates the dimensional feasibility argument, then explicitly ties the decision to cost, cooling and modifying the enclosure."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "minor",
+        "issues": [
+          "Introduces the report authors as the people doing the calculation and choosing its omission: 'beregner vi' and 'Vi har utelatt'. The source only describes an existing calculation."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Consolidates numerical thermal evidence in the first paragraph and combines dimensional feasibility, cost tradeoff and unresolved status in the second; this is real consolidation beyond synonym substitution."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+            "passed": true,
+            "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+          },
+          {
+            "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+            "passed": true,
+            "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+          },
+          {
+            "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+            "passed": true,
+            "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+          },
+          {
+            "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+            "passed": true,
+            "evidence": "Groups price and thermal evidence, separates enclosure feasibility, then provides a balanced comparison followed by the unresolved and untested status."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "G"
+    ],
+    "reason": "All seven replace the stock introduction/transitions with an organized cost/thermal comparison, enclosure feasibility argument and unresolved conclusion; none merely swaps synonyms. There is no robust basis to distinguish the faithful six. F also organizes the material well but adds unsupported authorship of the calculation.",
+    "eval_limitations": [
+      "The supplied engineering numbers and the stated 12 mm difference are evaluated for faithful preservation, not independently validated or reconciled with the installed-height difference."
+    ]
+  },
+  {
+    "id": "E13",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": true,
+            "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": true,
+            "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "minor",
+        "issues": [
+          "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": false,
+            "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "minor",
+        "issues": [
+          "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": false,
+            "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": true,
+            "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "minor",
+        "issues": [
+          "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 4
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "'between 4.8 and 5.2 V' preserves the same bounds and ten-minute duration; the ambient temperature remains unrecorded and temperature stability is explicitly unestablished. The range is semantically equivalent despite different typography."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": false,
+            "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+            "passed": true,
+            "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+          },
+          {
+            "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+            "passed": true,
+            "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+          },
+          {
+            "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+            "passed": true,
+            "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "E",
+      "G"
+    ],
+    "reason": "The four preferred emails preserve the factual limits and review timing with equally suitable restrained phrasing. C, D and F achieve the requested style but attribute the missing recording to Alex without source support. F's equivalent numerical range is not itself a defect.",
+    "eval_limitations": []
+  },
+  {
+    "id": "E14",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+            "passed": true,
+            "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+          },
+          {
+            "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+            "passed": true,
+            "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+          },
+          {
+            "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+            "passed": true,
+            "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "All seven keep the numerical pairings, missing third reading, unknown contact cause, unresolved goal and unperformed full-series repeat. The differences in ordering, first-person voice and equivalent range notation do not establish a substantive quality difference; the slightly shorter versions are not automatically better.",
+    "eval_limitations": []
+  }
+]

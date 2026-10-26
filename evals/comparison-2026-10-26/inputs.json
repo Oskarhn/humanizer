@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E01",
+    "request": "Gjør språket klarere og mer naturlig for en formell elektro-rapport. Behold den faglige betydningen. Returner bare den reviderte teksten.",
+    "input": "I forbindelse med gjennomføringen av forsøket ble spenningen målt over R1. Ved en forsyningsspenning på 12,0 V og en motstand på 220 Ω ble strømmen målt til 54,1 mA. Det er viktig å merke seg at målingen ble utført etter at kretsen hadde stått på i fem minutter. Resultatet gjelder bare dette oppsettet og er ikke en verifikasjon av komponentens merkeverdier."
+  },
+  {
+    "id": "E02",
+    "request": "Språkvask dette diskusjonsavsnittet til en skoleoppgave. Behold betydningen og den nøkterne tonen. Returner bare avsnittet.",
+    "input": "Resultatet er foreløpig usikkert. Regulatoren holdt vanligvis spenningen innenfor grensen, men ikke alltid. Avviket var omtrent 0,3 V. Bare én oppstart ble undersøkt ved lav temperatur. Derfor kan vi ikke konkludere med at problemet bare oppstår ved lav temperatur."
+  },
+  {
+    "id": "E03",
+    "request": "Gjer dette til god og naturleg nynorsk i ein teknisk rapport. Behald alle opplysningane og skiljet mellom simulering og fysisk testing. Returner berre teksten.",
+    "input": "Det vart gjennomført ei simulering av straumforsyninga i ngspice. Simuleringa viste ei utgangsspenning på 5,02 V ved 0,40 A last. Det er førebels ikkje bygd ein fysisk prototype, og startforløpet er ikkje målt. Vi vurderer derfor resultatet som lovande, men kan ikkje stadfeste at kretsen oppfyller krava i praksis."
+  },
+  {
+    "id": "E04",
+    "request": "Edit this discussion paragraph for clear, natural academic English. Preserve the scientific meaning and citations. Return only the paragraph.",
+    "input": "It is worth noting that the estimated difference was 1.8 points (95% CI −0.6 to 4.2; n = 36). The interval includes zero. This finding is consistent with several effects and does not establish equivalence. The observational design prevents a causal interpretation [12]. Consequently, the study should not be described as proving that the methods perform equally well."
+  },
+  {
+    "id": "E05",
+    "request": "Gi denne teksten en lett språkvask til en elektro-rapport. La gode formuleringer stå. Returner bare teksten.",
+    "input": "Spenningen falt da lasten økte. Målingen sier ikke om årsaken var strømbegrensning eller spenningsfall i ledningene. Vi trenger en egen måling ved regulatorens utgang for å skille mellom forklaringene."
+  },
+  {
+    "id": "E06",
+    "request": "Vurder dette avsnittet før jeg bruker det i en skoleoppgave. Ikke skriv det om ennå. Pek på hva som bør dokumenteres eller presiseres.",
+    "input": "Den innovative løsningen er betydelig mer effektiv enn tidligere metoder og vil revolusjonere energibruken i boliger. Dette viser at den er det beste alternativet for alle brukere."
+  },
+  {
+    "id": "E07",
+    "request": "Språkvask den forklarende prosaen. Behold tall, matematiske uttrykk, sitat, kildehenvisning og kode nøyaktig. Returner bare teksten.",
+    "input": "Det er viktig å merke seg at inngangsområdet er 18–24 V. Avviket ble målt til −0,25 V. Beregningen bruker $P=U^2/R$, og rapporten sier «Ingen termisk test er utført» [4]. Kommandoen `simulator --step 0.01` ble brukt.\n\n```text\nlimit = 0.25\n```"
+  },
+  {
+    "id": "E08",
+    "request": "Gjør hele rapportutdraget mer naturlig og presist på bokmål. Behold overskriftene, opplysningene og kildehenvisningene. Ikke legg til faglige resultater. Returner bare rapportutdraget.",
+    "input": "## Formål\nFormålet med denne undersøkelsen er å gjennomføre en vurdering av om det er mulig å bruke regulator A ved varierende last.\n\n## Metode\nI forbindelse med gjennomføringen ble lasten satt til 0,10 A, 0,30 A og 0,50 A. Hvert lastnivå ble holdt i 60 s. Måleinstrumentet hadde en oppgitt nøyaktighet på ±0,02 V.\n\n## Resultater\nUtgangsspenningen var henholdsvis 5,01 V, 4,96 V og 4,89 V. Tabellen i databladet oppgir maksimalt 0,15 V lastregulering ved disse betingelsene [1]. Kapslingstemperaturen ble ikke registrert.\n\n## Diskusjon\nEndringen mellom første og siste lastnivå var 0,12 V. Det er under databladets grense, men måleusikkerheten gjør at resultatet må vurderes med forsiktighet. Forsøket viser ikke hvordan regulatoren oppfører seg ved kontinuerlig drift over flere timer.\n\n## Konklusjon\nVi anbefaler en lengre temperaturtest før regulator A velges. Dette er en anbefaling; testen er ikke gjennomført og komponentvalget er ikke endelig."
+  },
+  {
+    "id": "E09",
+    "request": "Lightly copyedit this for a formal technical report. Preserve technical terminology, qualifications and meaning. Return only the text.",
+    "input": "The controller uses robust control to limit the effect of parameter uncertainty. Its leverage ratio is defined in Equation 2. The nominal operating point lies within the specified envelope. These terms are technical definitions, not promotional descriptions."
+  },
+  {
+    "id": "E10",
+    "request": "Gjør denne refleksjonen klarere til en skoleinnlevering. Behold min direkte jeg-stemme og det jeg faktisk erfarte. Ikke legg til hendelser. Returner bare teksten.",
+    "input": "Jeg brukte for lang tid på koblingsskjemaet. Først trodde jeg at komponentverdiene var feil, men det var jeg som hadde lest pinnenummereringen baklengs. Etter at jeg rettet det, stemte målingene bedre med beregningen. Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten."
+  },
+  {
+    "id": "E11",
+    "request": "Bruk humanizer på dette avsnittet til elektro-rapporten. Svar med teksten.",
+    "input": "Det er viktig å understreke at vernets funksjon ikke ble prøvd ved kortslutning. En innledende kontroll ble utført ved 0,20 A. Det ble da ikke observert utkobling. Dette er ikke grunnlag for å fastslå at vernet er defekt. Det foreligger heller ingen temperaturmåling fra denne kontrollen."
+  },
+  {
+    "id": "E12",
+    "request": "Skriv dette om til en sammenhengende og nøktern diskusjonsdel i en elektro-rapport. Du kan endre rekkefølge og avsnitt. Behold argumentene, avveiningene og kildehenvisningene. Returner bare diskusjonsdelen.",
+    "input": "Valget av kjøleribbe er en sentral del av prosjektet og spiller en viktig rolle for den overordnede løsningen. Alternativ B kostet 180 kr og alternativ A kostet 95 kr. Det er viktig å balansere kostnad og funksjon.\n\nNår det gjelder temperatur, oppgir produsenten 8 K/W for A og 4 K/W for B ved naturlig konveksjon [2]. Beregningen bruker 3 W tapsytelse og 25 °C omgivelsestemperatur. Den gir henholdsvis 49 °C og 37 °C ved kjøleribbens referansepunkt. Kontaktmotstanden mellom komponenten og kjøleribben er utelatt. Det er også verdt å nevne at B er 12 mm høyere enn A.\n\nProsjektet har en maksimal innvendig høyde på 30 mm, mens B med komponenten montert bygger 34 mm. A med komponenten bygger 26 mm. Dette er en begrensning som må tas på alvor. Til slutt er det klart at begge alternativene har sine fordeler. A kan monteres i den nåværende boksen. Bruk av B krever endring av boksen. Det er foreløpig ikke valgt kjøleribbe, og ingen av alternativene er testet fysisk."
+  },
+  {
+    "id": "E13",
+    "request": "Edit this email to my project supervisor so it sounds like the sample. Keep what I am asking for and the limits of the result. Return only the email. Voice sample: \"The first run looked fine. The second did not. I checked the wiring, but I have not found the cause yet. Can we go through it on Thursday?\"",
+    "input": "Dear Sam, I hope this email finds you well. I am writing to provide an update regarding the test of the regulator. The output remained within 4.8–5.2 V during the ten-minute run. It is worth highlighting that the ambient temperature was not recorded, so this run does not establish temperature stability. I would appreciate it if you could review the measurement plan before I start the next run. No date for that run has been agreed. Thank you for your continued guidance and support. Best, Alex"
+  },
+  {
+    "id": "E14",
+    "request": "Bruk humanizer til å skrive en kort konklusjon til rapporten på bokmål ut fra notatene. Returner bare konklusjonen.",
+    "input": "- Målet var å holde utgangen mellom 4,90 V og 5,10 V ved tre lastnivåer.\n- Målt 5,03 V ved 0,10 A og 4,97 V ved 0,30 A.\n- Målingen ved 0,50 A ble avbrutt da en kontakt løsnet. Ingen gyldig spenningsmåling ved dette lastnivået.\n- Vi har ikke fastslått hvorfor kontakten løsnet.\n- De to gyldige målingene er innenfor målområdet. Samlet måloppnåelse kan ikke avgjøres ennå.\n- Planlagt: utbedre kontakten og gjenta hele serien. Ikke gjennomført."
+  }
+]

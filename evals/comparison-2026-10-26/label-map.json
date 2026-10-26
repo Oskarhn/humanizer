@@ -1,0 +1,128 @@
+{
+  "E01": {
+    "A": "hannsxpeter",
+    "B": "baseline",
+    "C": "milock",
+    "D": "blader",
+    "E": "stopslop",
+    "F": "academic",
+    "G": "local"
+  },
+  "E02": {
+    "A": "baseline",
+    "B": "stopslop",
+    "C": "academic",
+    "D": "hannsxpeter",
+    "E": "milock",
+    "F": "blader",
+    "G": "local"
+  },
+  "E03": {
+    "A": "local",
+    "B": "blader",
+    "C": "baseline",
+    "D": "hannsxpeter",
+    "E": "milock",
+    "F": "stopslop",
+    "G": "academic"
+  },
+  "E04": {
+    "A": "milock",
+    "B": "academic",
+    "C": "blader",
+    "D": "local",
+    "E": "hannsxpeter",
+    "F": "baseline",
+    "G": "stopslop"
+  },
+  "E05": {
+    "A": "hannsxpeter",
+    "B": "stopslop",
+    "C": "local",
+    "D": "baseline",
+    "E": "academic",
+    "F": "milock",
+    "G": "blader"
+  },
+  "E06": {
+    "A": "local",
+    "B": "stopslop",
+    "C": "milock",
+    "D": "baseline",
+    "E": "academic",
+    "F": "hannsxpeter",
+    "G": "blader"
+  },
+  "E07": {
+    "A": "blader",
+    "B": "academic",
+    "C": "stopslop",
+    "D": "milock",
+    "E": "baseline",
+    "F": "local",
+    "G": "hannsxpeter"
+  },
+  "E08": {
+    "A": "local",
+    "B": "stopslop",
+    "C": "academic",
+    "D": "blader",
+    "E": "milock",
+    "F": "baseline",
+    "G": "hannsxpeter"
+  },
+  "E09": {
+    "A": "blader",
+    "B": "milock",
+    "C": "baseline",
+    "D": "stopslop",
+    "E": "local",
+    "F": "academic",
+    "G": "hannsxpeter"
+  },
+  "E10": {
+    "A": "baseline",
+    "B": "local",
+    "C": "hannsxpeter",
+    "D": "blader",
+    "E": "stopslop",
+    "F": "academic",
+    "G": "milock"
+  },
+  "E11": {
+    "A": "hannsxpeter",
+    "B": "academic",
+    "C": "stopslop",
+    "D": "milock",
+    "E": "blader",
+    "F": "local",
+    "G": "baseline"
+  },
+  "E12": {
+    "A": "academic",
+    "B": "blader",
+    "C": "baseline",
+    "D": "local",
+    "E": "milock",
+    "F": "stopslop",
+    "G": "hannsxpeter"
+  },
+  "E13": {
+    "A": "milock",
+    "B": "hannsxpeter",
+    "C": "baseline",
+    "D": "stopslop",
+    "E": "academic",
+    "F": "blader",
+    "G": "local"
+  },
+  "E14": {
+    "A": "milock",
+    "B": "blader",
+    "C": "academic",
+    "D": "local",
+    "E": "baseline",
+    "F": "stopslop",
+    "G": "hannsxpeter"
+  }
+}

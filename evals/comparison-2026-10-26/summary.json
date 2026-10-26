@@ -1,0 +1,146 @@
+{
+  "note": "Observed LLM judgments, not human authorship scores, population estimates, or statistical superiority. Graders may differ on severity; inspect issues. Local column is v1.1.0, NOT later patch.",
+  "candidates": [
+    {
+      "candidate": "local",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 13,
+      "minor_fidelity_flags": 1,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [
+        "E04"
+      ],
+      "preferred_including_ties": 13,
+      "ratings_mean": {
+        "clarity": 4.928571428571429,
+        "naturalness": 5,
+        "proportionality": 4.928571428571429,
+        "compliance": 4.928571428571429
+      },
+      "expectations_met": 43,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "academic",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 14,
+      "minor_fidelity_flags": 0,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [],
+      "preferred_including_ties": 14,
+      "ratings_mean": {
+        "clarity": 5,
+        "naturalness": 5,
+        "proportionality": 5,
+        "compliance": 5
+      },
+      "expectations_met": 44,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "hannsxpeter",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 14,
+      "minor_fidelity_flags": 0,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [],
+      "preferred_including_ties": 14,
+      "ratings_mean": {
+        "clarity": 5,
+        "naturalness": 5,
+        "proportionality": 5,
+        "compliance": 5
+      },
+      "expectations_met": 44,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "blader",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 11,
+      "minor_fidelity_flags": 3,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [
+        "E02",
+        "E11",
+        "E13"
+      ],
+      "preferred_including_ties": 11,
+      "ratings_mean": {
+        "clarity": 5,
+        "naturalness": 5,
+        "proportionality": 4.928571428571429,
+        "compliance": 4.785714285714286
+      },
+      "expectations_met": 41,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "milock",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 12,
+      "minor_fidelity_flags": 2,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [
+        "E02",
+        "E03"
+      ],
+      "preferred_including_ties": 11,
+      "ratings_mean": {
+        "clarity": 4.928571428571429,
+        "naturalness": 4.857142857142857,
+        "proportionality": 4.714285714285714,
+        "compliance": 4.857142857142857
+      },
+      "expectations_met": 44,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "stopslop",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 5,
+      "minor_fidelity_flags": 5,
+      "material_fidelity_flags": 4,
+      "flagged_case_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E07",
+        "E08",
+        "E11",
+        "E12",
+        "E13"
+      ],
+      "preferred_including_ties": 5,
+      "ratings_mean": {
+        "clarity": 5,
+        "naturalness": 5,
+        "proportionality": 4.357142857142857,
+        "compliance": 3.9285714285714284
+      },
+      "expectations_met": 34,
+      "expectations_total": 44
+    },
+    {
+      "candidate": "baseline",
+      "cases": 14,
+      "no_fidelity_issue_recorded": 12,
+      "minor_fidelity_flags": 2,
+      "material_fidelity_flags": 0,
+      "flagged_case_ids": [
+        "E11",
+        "E13"
+      ],
+      "preferred_including_ties": 12,
+      "ratings_mean": {
+        "clarity": 5,
+        "naturalness": 5,
+        "proportionality": 5,
+        "compliance": 4.857142857142857
+      },
+      "expectations_met": 41,
+      "expectations_total": 44
+    }
+  ]
+}

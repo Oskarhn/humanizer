@@ -1,0 +1,22 @@
+[
+  {
+    "id": "M01",
+    "output": "It may help to compare the two estimates before choosing a supplier. The procurement schedule has not been approved."
+  },
+  {
+    "id": "M02",
+    "output": "Under vurderingen ble det registrert en utgangsspenning på 6,10 V. Det foreligger ingen logg fra målingen av inngangsstrømmen. Det er ukjent hvem som betjente instrumentet."
+  },
+  {
+    "id": "M03",
+    "output": "Effekttapet i transistoren vart berekna til 1,6 W ved den oppgitte arbeidstilstanden. Kjølinga er ikkje teken med i modellen, og det er ikkje utført temperaturmålingar. Resultatet seier derfor ikkje om transistoren toler kontinuerleg drift."
+  },
+  {
+    "id": "M04",
+    "output": "The mean noise level was lower in the second run. The battery had been replaced before that run. The report does not identify the cause of the difference."
+  },
+  {
+    "id": "M05",
+    "output": "The estimated difference was 1.8 points (95% CI −0.6 to 4.2; n = 36). The interval includes zero. This finding is consistent with several effects and does not establish equivalence. The observational design prevents a causal interpretation [12]. The study should therefore not be described as proving that the methods perform equally well."
+  }
+]

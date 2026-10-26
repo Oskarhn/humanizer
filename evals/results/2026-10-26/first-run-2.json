@@ -1,0 +1,50 @@
+[
+  {
+    "id": "H13",
+    "output": "A refund may be issued only if the package is unopened. Staff must document the inspection. This guidance does not require staff to approve a refund."
+  },
+  {
+    "id": "H14",
+    "output": "There was no statistically significant difference between the groups. Because the sample was small, this does not establish that their outcomes were equivalent."
+  },
+  {
+    "id": "H15",
+    "output": "The supplier claims that the enclosure is waterproof, but we have not tested that claim. Our laboratory verified its vibration resistance."
+  },
+  {
+    "id": "H16",
+    "output": "Strømmen ble redusert med 20 %, ikke til 20 %. Spenningen var −0,25 V ved målepunktet, mens grensen var +0,30 V."
+  },
+  {
+    "id": "H17",
+    "output": "It would help to have the revised budget before the scheduled meeting. The proposed timeline is still awaiting approval."
+  },
+  {
+    "id": "H18",
+    "output": "This guide introduces a practice schedule for beginners learning a language."
+  },
+  {
+    "id": "H19",
+    "output": "1. Close the inlet valve.\n2. Wait until the gauge reads 0 bar.\n3. Disconnect the hose."
+  },
+  {
+    "id": "H20",
+    "output": "Study A reported a shorter median wait [1]. Study B examined satisfaction but did not measure wait time [2]. Neither study tested the proposed scheduling system."
+  },
+  {
+    "id": "H21",
+    "output": "The pilot enrolled 42 participants. All 45 participants completed the final questionnaire.\n\nContent issue: The participant totals conflict. The report gives an enrolment of 42 but says all 45 participants completed the questionnaire. I cannot determine which figure is correct from the supplied text."
+  },
+  {
+    "id": "H22",
+    "output": "The prototype processed 120 samples in one hour during a test using only synthetic data. No deployment trial has been conducted. The findings are preliminary and should be interpreted with care, given these limits on the evidence."
+  },
+  {
+    "id": "H23",
+    "output": "The organisation analysed the colour measurements before finalising the programme. It found no evidence that the revised procedure improved calibration."
+  },
+  {
+    "id": "H24",
+    "output": "## Problem\nStaff enter each order in two systems.\n\n## Pilot\nA prototype copied 120 synthetic orders. No customer records were used. No production trial has been conducted [1].\n\n## Cost\nThe smaller deployment costs 40,000 NOK per year; the larger deployment costs 70,000 NOK per year. Neither figure includes support [2].\n\n## Decision\nWe recommend a production trial before selecting a deployment. No trial or purchase has been approved."
+  }
+]

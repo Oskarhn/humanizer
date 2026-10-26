@@ -1,0 +1,51 @@
+{
+  "reviewed": "2026-10-26",
+  "supplied_files": [
+    {
+      "file": "applsci-16-10335.pdf",
+      "sha256": "2a8068b313de36b5f7a0494aa45901b0d7bfe3be968fb5b0ad5499ca282e8c58",
+      "disposition": "Byte-identical resubmission of R02; not another study"
+    },
+    {
+      "file": "2604.031316v6.pdf",
+      "sha256": "206e7345bb7d73fe98cf1d560df4cdd8f41b4e9125e98cda22d057c34e7bced8",
+      "pages": 20,
+      "title": "textGrain: Entropy-Calibrated Watermarking for Language Model Text",
+      "document_date": "2026-10-05",
+      "source_url": "https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf",
+      "official_bytes_match": true,
+      "filename_is_verified_arxiv_id": false
+    }
+  ],
+  "source_urls": [
+    "https://www.anthropic.com/news/claude-text-watermark",
+    "https://www.nature.com/articles/s41586-024-08025-4",
+    "https://github.com/google-deepmind/synthid-text/blob/main/docs/tournament.md",
+    "https://github.com/google-deepmind/synthid-text",
+    "https://openai.com/index/eu-text-provenance/",
+    "https://help.openai.com/en/articles/8912793-provenance-signals-in-openai-generated-content"
+  ],
+  "repository": {
+    "name": "google-deepmind/synthid-text",
+    "commit": "07c83fea815b78d9454f9df18fdef8d940803e7c",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha": "7456bf40f3719a38fa45fbb840b8dcfd2095c696",
+        "url": "https://github.com/google-deepmind/synthid-text/blob/07c83fea815b78d9454f9df18fdef8d940803e7c/README.md"
+      },
+      {
+        "path": "docs/tournament.md",
+        "git_blob_sha": "2d603aee629a5a7408bcfc6c3ce6156f2ac7eb12",
+        "url": "https://github.com/google-deepmind/synthid-text/blob/07c83fea815b78d9454f9df18fdef8d940803e7c/docs/tournament.md"
+      }
+    ],
+    "read_only_review": true,
+    "installed_or_executed": false
+  },
+  "notes": [
+    "The Nature paper is the existing R16, not a new independent experiment.",
+    "Provider publications and implementation documentation are labeled separately from independent studies.",
+    "No provider detector, production key, or watermark-removal experiment was used."
+  ]
+}

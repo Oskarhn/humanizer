@@ -1,0 +1,3149 @@
+[
+  {
+    "id": "E01",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "E",
+    "fidelity": "minor",
+    "issues": [
+      "The source identifies no measurement operator. 'Vi målte' and 'Vi utførte' assign the measurements to the authors, contrary to the explicit no-invented-actor expectation."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 3
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": false,
+        "evidence": "The padding is removed and the prose is formal, but 'Vi målte' and 'Vi utførte' introduce an unidentified measurement operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 12,0 V, 220 Ω, 54,1 mA, R1 and five-minute condition.",
+        "passed": true,
+        "evidence": "All four protected literals remain, as does five minutes of powered operation before measurement."
+      },
+      {
+        "text": "Keep measured status and scope limited to this setup; no component-rating certification.",
+        "passed": true,
+        "evidence": "'Målt', 'bare dette oppsettet' and the explicit denial of verifying component ratings all remain."
+      },
+      {
+        "text": "Formal Bokmål with meaningful reduction of bureaucratic padding, no commentary or invented actor.",
+        "passed": true,
+        "evidence": "The bureaucratic opening and importance-marker are removed; only formal revised text is returned, without adding an operator."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "B",
+    "fidelity": "minor",
+    "issues": [
+      "'Vi undersøkte' assigns the cold-start investigation to the authors. The source's 'vi' identifies who may draw a conclusion, but does not explicitly identify who conducted the investigation. This small attribution change leaves the substantive uncertainty intact."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "'Foreløpig usikkert', 'vanligvis', explicit deviations of 'omtrent 0,3 V', and 'bare én oppstart ved lav temperatur' retain all qualifications."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "milock",
+    "preferred_including_ties": false,
+    "label": "E",
+    "fidelity": "minor",
+    "issues": [
+      "'Vi undersøkte' assigns the cold-start investigation to the authors. The source's 'vi' identifies who may draw a conclusion, but does not explicitly identify who conducted the investigation. This small attribution change leaves the substantive uncertainty intact."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "blader",
+    "preferred_including_ties": false,
+    "label": "F",
+    "fidelity": "minor",
+    "issues": [
+      "'Vi undersøkte' assigns the cold-start investigation to the authors. The source's 'vi' identifies who may draw a conclusion, but does not explicitly identify who conducted the investigation. This small attribution change leaves the substantive uncertainty intact."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep preliminary uncertainty, usually but not always, approximately 0,3 V, only one cold start.",
+        "passed": true,
+        "evidence": "The preliminary uncertainty, 'vanligvis ... men ikke alltid', 'omtrent 0,3 V', and only one low-temperature startup remain."
+      },
+      {
+        "text": "Retain inability to conclude the problem occurs only in cold conditions.",
+        "passed": true,
+        "evidence": "The final clause still denies concluding that the problem 'bare oppstår ved lav temperatur'."
+      },
+      {
+        "text": "No conversion of qualified observations to universal claims; retain formal Norwegian.",
+        "passed": true,
+        "evidence": "The observations remain qualified and the paragraph uses formal Norwegian."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk. 'Kretsen' is valid: Nynorskordboka lists 'krets', including sense 4 for a closed network or system; 'krinsen' is also valid."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk, including 'straumforsyninga', 'førebels', 'krinsen' and 'stadfeste'."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk, including 'straumforsyninga', 'førebels', 'krinsen' and 'stadfeste'."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk, including 'straumforsyninga', 'førebels', 'krinsen' and 'stadfeste'."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "milock",
+    "preferred_including_ties": false,
+    "label": "E",
+    "fidelity": "minor",
+    "issues": [
+      "'Vi simulerte' identifies the author group as simulation operators; the source only identifies them as people assessing the result."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk. 'Kretsen' is valid: Nynorskordboka lists 'krets', including sense 4 for a closed network or system; 'krinsen' is also valid."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "F",
+    "fidelity": "material",
+    "issues": [
+      "'Vi simulerte' identifies the author group as simulation operators; the source only identifies them as people assessing the result.",
+      "'Vi har ... ikkje bygd ... eller målt' only denies work by the author group. The source states that no prototype has yet been built and startup has not been measured, without that actor restriction. This weakens the explicit boundary on available physical evidence."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 3,
+      "compliance": 2
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk, including 'straumforsyninga', 'førebels', 'krinsen' and 'stadfeste'."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "The values follow 'simulerte ... i ngspice', retaining explicit simulation provenance."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": false,
+        "evidence": "The practical-compliance caveat remains, but 'Vi har ... ikkje bygd ... eller målt' restricts the absence of hardware/startup evidence to the authors."
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Nynorsk throughout, not converted to Bokmål.",
+        "passed": true,
+        "evidence": "The paragraph consistently uses Nynorsk, including 'straumforsyninga', 'førebels', 'krinsen' and 'stadfeste'."
+      },
+      {
+        "text": "Preserve ngspice, 5,02 V and 0,40 A as simulation outcomes.",
+        "passed": true,
+        "evidence": "'Simuleringa viste' explicitly attaches 5,02 V at 0,40 A to the ngspice simulation."
+      },
+      {
+        "text": "No physical prototype, no measured startup, no verified practical compliance.",
+        "passed": true,
+        "evidence": "No physical prototype yet, unmeasured startup, and inability to confirm practical compliance all remain."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": true,
+        "evidence": "The paragraph removes padding while preserving each distinct limitation; [12] remains attached to the observational-design/causal-interpretation claim."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": true,
+        "evidence": "The paragraph removes padding while preserving each distinct limitation; [12] remains attached to the observational-design/causal-interpretation claim."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": true,
+        "evidence": "The paragraph removes padding while preserving each distinct limitation; [12] remains attached to the observational-design/causal-interpretation claim."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "local",
+    "preferred_including_ties": false,
+    "label": "D",
+    "fidelity": "minor",
+    "issues": [
+      "The added 'so' presents inclusion of zero as the reason the finding is compatible with several effects. A confidence interval represents a range regardless of whether it includes zero; the source states these observations separately. This slightly changes the statistical reasoning."
+    ],
+    "ratings": {
+      "clarity": 4,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": false,
+        "evidence": "Academic register and all distinct limitations remain, and [12] stays attached to the observational-design limitation. However, 'so' adds an unjustified inferential link."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": true,
+        "evidence": "The paragraph removes padding while preserving each distinct limitation; [12] remains attached to the observational-design/causal-interpretation claim."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": true,
+        "evidence": "The paragraph removes padding while preserving each distinct limitation; [12] remains attached to the observational-design/causal-interpretation claim."
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "G",
+    "fidelity": "minor",
+    "issues": [
+      "'We estimated' attributes the estimate to the narrator. The source identifies an estimated difference and 'the study' without establishing that the narrator performed the analysis. The substantive causal and equivalence limits remain."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 4,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve estimate, interval, n and [12] plus interval containing zero.",
+        "passed": true,
+        "evidence": "1.8 points, 95% CI −0.6 to 4.2, n = 36, explicit inclusion of zero, and [12] all remain."
+      },
+      {
+        "text": "No equivalence or causal claim; no 'no effect' assertion.",
+        "passed": true,
+        "evidence": "The output denies establishing equivalence and causal inference and retains the warning against describing the study as proving equal performance. No 'no effect' assertion is added."
+      },
+      {
+        "text": "Academic English, accurate limitation and attribution, concise without deleting distinct claims.",
+        "passed": false,
+        "evidence": "The condensed paragraph retains each distinct limitation and [12] remains attached to the causal limitation, but 'We estimated' supplies an unsupported narrator role."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "stopslop",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Unchanged output is valid; keep voltage-load observation and two unresolved possible explanations.",
+        "passed": true,
+        "evidence": "Identical to the source: voltage falls as load increases; current limiting versus voltage drop in the leads remain unresolved."
+      },
+      {
+        "text": "Do not invent a diagnosis or claim an extra measurement has run.",
+        "passed": true,
+        "evidence": "'Vi trenger en egen måling' still describes a needed measurement at the regulator output. Neither diagnosis is asserted."
+      },
+      {
+        "text": "Avoid gratuitous colloquialism, fake personality or awkward synonym replacement.",
+        "passed": true,
+        "evidence": "The already clear technical prose is intact, without persona, colloquialism, commentary or synonym churn."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "Review list plus inference critique; no replacement paragraph."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Asks for efficiency definition, comparator, difference, conditions, forecast evidence and criteria/population supporting 'best for all'."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "Requests measurements, sources and conditional statistical analysis; supplies no claimed results."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "stopslop",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "List of claims to document or clarify; no replacement paragraph."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Requests efficiency definition, compared methods, conditions, uncertainty, forecast evidence and best/all-user criteria."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "Distinguishing measured results from expectations is advice, not an assertion that specific results exist."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "milock",
+    "preferred_including_ties": false,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [
+      "English section headings and CRITICAL/HIGH labels are disproportionate to this Norwegian school-paragraph review and give it an unnecessarily heavy audit tone."
+    ],
+    "ratings": {
+      "clarity": 4,
+      "naturalness": 3,
+      "proportionality": 3,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "Issues Found and Assessment contain review content only."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Challenges the comparator, metric, conditions, significance, forecast, 'best' criteria and 'all users' generalization."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "Significance language is conditional; no numbers or supporting sources are fabricated."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "Diagnostic list and short assessment; no replacement paragraph."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Requires metric, comparator, conditions, uncertainty, forecast support and best/all-user criteria."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "Requests evidence; costs and practical limits are proposed considerations, not alleged findings."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "Documentation and qualification advice, without a replacement paragraph."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Addresses metric, comparator, conditions, forecast scope, all-user evidence and referent for 'Dette viser'."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "'Mer støtte enn et enkelt forsøksresultat' describes an evidence standard; it does not assert a particular experiment occurred."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "Reviews quoted phrases and the inference, without rewriting."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Requests metric, comparator, practical/statistical meaning, future-impact evidence, criteria and population limits."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "'Kilder eller egne målinger' requests potential evidence without supplying or claiming any."
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Review only, not a replacement paragraph.",
+        "passed": true,
+        "evidence": "List of issues needing documentation and clarification; no replacement paragraph."
+      },
+      {
+        "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+        "passed": true,
+        "evidence": "Requests metric, previous methods, conditions, practical/statistical meaning, future savings and best/all-user criteria."
+      },
+      {
+        "text": "No invented measurements, sources, p-values, figures or new evidence.",
+        "passed": true,
+        "evidence": "Requests measurements and support without inventing numbers, sources or actual findings."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "C",
+    "fidelity": "material",
+    "issues": [
+      "Changes 'Avviket ble målt' to 'Vi målte' and 'Kommandoen ... ble brukt' to 'Vi brukte', assigning empirical and computational actions to an actor absent from the source. Experimental provenance is a factual claim, not a stylistic synonym."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 3,
+      "compliance": 3
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": false,
+        "evidence": "Preserves the thermal-test negation and adds no commentary, but 'Vi målte' and 'Vi brukte' newly attribute the measurement and command execution to the authors, where the source leaves the operators unspecified."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+        "passed": true,
+        "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+      },
+      {
+        "text": "Preserve exact quote and both inline/fenced code.",
+        "passed": true,
+        "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+      },
+      {
+        "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+        "passed": true,
+        "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "B",
+    "fidelity": "material",
+    "issues": [
+      "Replaces the experiment-specific evidentiary limit 'Forsøket viser ikke hvordan regulatoren oppfører seg ...' with 'Vi har ikke undersøkt hvordan ...'. The latter asserts a broader absence of investigation by the authors; the source does not establish that.",
+      "'Vi satte', 'Vi registrerte ikke' and 'før vi velger' assign experimental acts and the component decision to the recommending authors, although the source leaves those actors unspecified. 'Om vi kan bruke' also narrows the general usability question to the authors' use. These are plausible attributions, but are not supplied facts."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 3,
+      "compliance": 3
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": false,
+        "evidence": "Retains unrecorded temperature, caution due to uncertainty, unperformed recommended test and nonfinal selection. However, 'Vi har ikke undersøkt hvordan ...' broadens the source's limitation 'Forsøket viser ikke hvordan ...' from this experiment's demonstrated scope to the authors' investigation history."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": false,
+        "evidence": "Simplifies the bureaucratic wording, but repeated 'Vi' introduces experimenter/decision-maker identities and 'Vi har ikke undersøkt' changes the scope of the evidentiary limitation."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+        "passed": true,
+        "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+      },
+      {
+        "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+        "passed": true,
+        "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+      },
+      {
+        "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+        "passed": true,
+        "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+      },
+      {
+        "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+        "passed": true,
+        "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "stopslop",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+        "passed": true,
+        "evidence": "Preserves all named terms and specified envelope verbatim."
+      },
+      {
+        "text": "Do not blacklist legitimate terminology or casualize the report.",
+        "passed": true,
+        "evidence": "Preserves the source's formal technical register and legitimate terminology."
+      },
+      {
+        "text": "No invented explanation of the technical definitions.",
+        "passed": true,
+        "evidence": "Adds no definitions or claims; the output is identical to the source."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet det' retains the source's readily understood referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "stopslop",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep first-person voice and supplied actual mistake/correction.",
+        "passed": true,
+        "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+      },
+      {
+        "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+        "passed": true,
+        "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+      },
+      {
+        "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+        "passed": true,
+        "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": true,
+        "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": true,
+        "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": true,
+        "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": true,
+        "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "C",
+    "fidelity": "material",
+    "issues": [
+      "Invents the reporting group as the people who ran and observed the control: 'Vi prøvde', 'observerte vi'. The source identifies no operator.",
+      "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 3
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": false,
+        "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": false,
+        "evidence": "'Vi prøvde' and 'observerte vi' assign the control to an unsupported actor. The separate conclusion correctly says the result cannot establish defective protection."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": false,
+        "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": true,
+        "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": true,
+        "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "blader",
+    "preferred_including_ties": false,
+    "label": "E",
+    "fidelity": "minor",
+    "issues": [
+      "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": false,
+        "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": false,
+        "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": true,
+        "evidence": "Explicitly retains no short-circuit test, an initial control at 0,20 A, no observed trip, and no temperature measurement from the control."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": true,
+        "evidence": "Direct formal report wording removes the introductory emphasis while preserving the evidentiary qualification."
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "candidate": "baseline",
+    "preferred_including_ties": false,
+    "label": "G",
+    "fidelity": "minor",
+    "issues": [
+      "Changes absence of a temperature measurement in the available result into a definite claim that temperature was not measured ('Vi målte heller ikke' / 'Temperaturen ble heller ikke målt'). That is a stronger statement about what was done."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Keep no short-circuit test, preliminary 0,20 A control, no observed trip and no temperature measurement.",
+        "passed": false,
+        "evidence": "The short-circuit exclusion, preliminary 0,20 A control and absence of observed tripping remain; however, the temperature sentence asserts that no measurement was performed instead of retaining the source's absence-of-measurement statement."
+      },
+      {
+        "text": "Absence of observed trip is not evidence establishing defective protection; do not invent who ran the control.",
+        "passed": true,
+        "evidence": "The result is explicitly insufficient to establish a defect, and the passive construction introduces no operator."
+      },
+      {
+        "text": "Natural formal report language without changing evidence status, even with minimal user constraints.",
+        "passed": false,
+        "evidence": "The prose is natural report language, but the temperature statement changes the evidence status; C also supplies an unsupported first-person operator."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Groups cost and thermal evidence, then connects the lower calculated temperature to cost and the enclosure constraint, and closes with the unresolved tradeoff."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Groups cost and thermal evidence, integrates installed heights with feasibility in the second paragraph, and separates the unresolved decision and testing status."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Groups thermal estimates with their limitation and untested status, gives geometry a separate paragraph, then explicitly weighs price/fit against cooling."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Organizes the discussion around thermal evidence, a distinct 'Plassbegrensningen taler for A' argument, and a balanced unresolved conclusion."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Groups thermal evidence and its limitation, separates the dimensional feasibility argument, then explicitly ties the decision to cost, cooling and modifying the enclosure."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "F",
+    "fidelity": "minor",
+    "issues": [
+      "Introduces the report authors as the people doing the calculation and choosing its omission: 'beregner vi' and 'Vi har utelatt'. The source only describes an existing calculation."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Consolidates numerical thermal evidence in the first paragraph and combines dimensional feasibility, cost tradeoff and unresolved status in the second; this is real consolidation beyond synonym substitution."
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve costs A95/B180, thermal resistances A8/B4 K/W, assumptions3W25°C, results49/37°C respectively and omitted contact resistance with [2].",
+        "passed": true,
+        "evidence": "Correctly associates A with 95 kr, 8 K/W and 49 °C, B with 180 kr, 4 K/W and 37 °C; retains natural convection [2], 3 W, 25 °C and omitted component-to-heatsink contact resistance."
+      },
+      {
+        "text": "Preserve 12mm height difference,30mm available height,A26/B34mm, A fits/current box and B requires box modification.",
+        "passed": true,
+        "evidence": "Retains the stated 12 mm difference, 30 mm limit and installed heights A 26 mm/B 34 mm, then explicitly states A fits the current enclosure and B requires changing it."
+      },
+      {
+        "text": "Preserve unresolved choice and no physical tests; do not promote heatsink reference temperature to junction temperature.",
+        "passed": true,
+        "evidence": "Explicitly retains the pending selection and absence of physical tests. Numerical temperatures remain at the heatsink reference point, not the component junction."
+      },
+      {
+        "text": "Meaningful structural improvement and clear tradeoff; do not merely rephrase boilerplate or erase distinct information.",
+        "passed": true,
+        "evidence": "Groups price and thermal evidence, separates enclosure feasibility, then provides a balanced comparison followed by the unresolved and untested status."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": true,
+        "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": true,
+        "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "baseline",
+    "preferred_including_ties": false,
+    "label": "C",
+    "fidelity": "minor",
+    "issues": [
+      "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": false,
+        "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "stopslop",
+    "preferred_including_ties": false,
+    "label": "D",
+    "fidelity": "minor",
+    "issues": [
+      "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": false,
+        "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": true,
+        "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "blader",
+    "preferred_including_ties": false,
+    "label": "F",
+    "fidelity": "minor",
+    "issues": [
+      "'I did not record the ambient temperature' assigns the omitted recording to Alex. The original only says it was not recorded, without identifying who was responsible."
+    ],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 4
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "'between 4.8 and 5.2 V' preserves the same bounds and ten-minute duration; the ambient temperature remains unrecorded and temperature stability is explicitly unestablished. The range is semantically equivalent despite different typography."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": false,
+        "evidence": "The short factual sentences and direct request fit the sample, but 'I did not record' manufactures an attribution absent from the source. No joke, concern or sample event is added."
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve 4.8–5.2 V/ten minutes, unknown ambient temperature and inability to establish temperature stability.",
+        "passed": true,
+        "evidence": "Retains 4.8–5.2 V during ten minutes, unrecorded ambient temperature and the explicit limitation that this run cannot establish temperature stability."
+      },
+      {
+        "text": "Keep request to review plan BEFORE next run; do not invent deadline, agreed date or prior meeting from voice sample.",
+        "passed": true,
+        "evidence": "Asks Sam to review the measurement plan before Alex starts the next run and explicitly says no date is agreed; imports no Thursday meeting or other sample event."
+      },
+      {
+        "text": "Match direct restrained sample without manufacturing concern, jokes or events; sensible email greeting/signoff may stay.",
+        "passed": true,
+        "evidence": "Uses short factual statements and a direct 'Can you review' request, with a conventional greeting/signoff; adds no sample events, concern or jokes."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "milock",
+    "preferred_including_ties": true,
+    "label": "A",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "blader",
+    "preferred_including_ties": true,
+    "label": "B",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "academic",
+    "preferred_including_ties": true,
+    "label": "C",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "local",
+    "preferred_including_ties": true,
+    "label": "D",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "baseline",
+    "preferred_including_ties": true,
+    "label": "E",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "stopslop",
+    "preferred_including_ties": true,
+    "label": "F",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  },
+  {
+    "id": "E14",
+    "candidate": "hannsxpeter",
+    "preferred_including_ties": true,
+    "label": "G",
+    "fidelity": "pass",
+    "issues": [],
+    "ratings": {
+      "clarity": 5,
+      "naturalness": 5,
+      "proportionality": 5,
+      "compliance": 5
+    },
+    "expectations": [
+      {
+        "text": "Preserve target4,90–5,10 V, valid5,03 at0,10 and4,97 at0,30, no valid reading at0,50 due loose contact.",
+        "passed": true,
+        "evidence": "Correctly pairs 5,03 V with 0,10 A and 4,97 V with 0,30 A within the 4,90–5,10 V target. Identifies the loose contact as the interruption at 0,50 A and explicitly retains no valid voltage reading there."
+      },
+      {
+        "text": "No inferred cause of loose contact, no complete target compliance or valid3rd measurement.",
+        "passed": true,
+        "evidence": "Explicitly says the reason the contact loosened is not established. Only the two valid readings meet the target; the third result and overall compliance remain unresolved."
+      },
+      {
+        "text": "Retain incomplete goal status and planned but unperformed repair/repeated whole series; coherent concise conclusion.",
+        "passed": true,
+        "evidence": "States that overall goal achievement cannot yet be decided and that repairing the contact and repeating the whole measurement series are planned and have not been completed. It is a coherent short conclusion. The source already supplies a first-person project group ('Vi har ikke fastslått')."
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+name: Report a problem
+description: Report an editing, installation, or local-tool failure with a shareable example.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Skill version, client, model if exposed, OS, and installation scope.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Request and source
+      description: Use synthetic or shareable text. Remove private data and credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual result
+      description: Include the affected passage or error, without private transcripts.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and reason
+      description: Explain the lost meaning, incorrect behavior, or unclear instruction.
+    validations:
+      required: true

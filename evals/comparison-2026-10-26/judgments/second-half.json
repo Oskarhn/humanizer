@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "E06",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "Review list plus inference critique; no replacement paragraph."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Asks for efficiency definition, comparator, difference, conditions, forecast evidence and criteria/population supporting 'best for all'."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "Requests measurements, sources and conditional statistical analysis; supplies no claimed results."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "List of claims to document or clarify; no replacement paragraph."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Requests efficiency definition, compared methods, conditions, uncertainty, forecast evidence and best/all-user criteria."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "Distinguishing measured results from expectations is advice, not an assertion that specific results exist."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [
+          "English section headings and CRITICAL/HIGH labels are disproportionate to this Norwegian school-paragraph review and give it an unnecessarily heavy audit tone."
+        ],
+        "ratings": {
+          "clarity": 4,
+          "naturalness": 3,
+          "proportionality": 3,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "Issues Found and Assessment contain review content only."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Challenges the comparator, metric, conditions, significance, forecast, 'best' criteria and 'all users' generalization."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "Significance language is conditional; no numbers or supporting sources are fabricated."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "Diagnostic list and short assessment; no replacement paragraph."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Requires metric, comparator, conditions, uncertainty, forecast support and best/all-user criteria."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "Requests evidence; costs and practical limits are proposed considerations, not alleged findings."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "Documentation and qualification advice, without a replacement paragraph."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Addresses metric, comparator, conditions, forecast scope, all-user evidence and referent for 'Dette viser'."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "'Mer støtte enn et enkelt forsøksresultat' describes an evidence standard; it does not assert a particular experiment occurred."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "Reviews quoted phrases and the inference, without rewriting."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Requests metric, comparator, practical/statistical meaning, future-impact evidence, criteria and population limits."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "'Kilder eller egne målinger' requests potential evidence without supplying or claiming any."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Review only, not a replacement paragraph.",
+            "passed": true,
+            "evidence": "List of issues needing documentation and clarification; no replacement paragraph."
+          },
+          {
+            "text": "Identify undefined efficiency metric/baseline, unsupported significant/universal/forecast claims.",
+            "passed": true,
+            "evidence": "Requests metric, previous methods, conditions, practical/statistical meaning, future savings and best/all-user criteria."
+          },
+          {
+            "text": "No invented measurements, sources, p-values, figures or new evidence.",
+            "passed": true,
+            "evidence": "Requests measurements and support without inventing numbers, sources or actual findings."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "The six preferred reviews accurately identify the unsupported claims and remain within review-only scope. Small content and presentation differences do not justify a reliable winner. C covers the same substance but uses an unnecessarily heavy severity system.",
+    "eval_limitations": [
+      "The solution and its actual evidence are not supplied; this evaluates editorial reasoning and scope, not whether the original claims are true.",
+      "Requests or hypothetical examples of evidence are not treated as fabricated results."
+    ]
+  },
+  {
+    "id": "E07",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "material",
+        "issues": [
+          "Changes 'Avviket ble målt' to 'Vi målte' and 'Kommandoen ... ble brukt' to 'Vi brukte', assigning empirical and computational actions to an actor absent from the source. Experimental provenance is a factual claim, not a stylistic synonym."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 3,
+          "compliance": 3
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": false,
+            "evidence": "Preserves the thermal-test negation and adds no commentary, but 'Vi målte' and 'Vi brukte' newly attribute the measurement and command execution to the authors, where the source leaves the operators unspecified."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep numeric range and mathematical minus/values, equation and [4] exact.",
+            "passed": true,
+            "evidence": "Preserves 18–24 V, −0,25 V, $P=U^2/R$ and [4] verbatim."
+          },
+          {
+            "text": "Preserve exact quote and both inline/fenced code.",
+            "passed": true,
+            "evidence": "Preserves «Ingen termisk test er utført», `simulator --step 0.01`, and the complete text fence containing limit = 0.25 verbatim, including its actual newlines."
+          },
+          {
+            "text": "Thermal test remains not performed; no invented evidence or extra commentary.",
+            "passed": true,
+            "evidence": "Preserves the unperformed thermal test and its report attribution; introduces no evidence, actors or commentary."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "The six preferred outputs are identical: they remove the empty introductory phrase while preserving all protected content, evidence boundaries and attribution. C is equally readable but introduces authorship of the measurement and command execution.",
+    "eval_limitations": [
+      "The source gives no operator identities. Introduced first-person measurement and execution claims are judged unsupported rather than assumed from report authorship.",
+      "The repaired fixture has actual paragraph and code-fence newlines; all protected literals were verified as exact substrings. No formatting penalty from the earlier fixture is carried over.",
+      "No simulator or physical test was run; this is an editorial-fidelity assessment."
+    ]
+  },
+  {
+    "id": "E08",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "material",
+        "issues": [
+          "Replaces the experiment-specific evidentiary limit 'Forsøket viser ikke hvordan regulatoren oppfører seg ...' with 'Vi har ikke undersøkt hvordan ...'. The latter asserts a broader absence of investigation by the authors; the source does not establish that.",
+          "'Vi satte', 'Vi registrerte ikke' and 'før vi velger' assign experimental acts and the component decision to the recommending authors, although the source leaves those actors unspecified. 'Om vi kan bruke' also narrows the general usability question to the authors' use. These are plausible attributions, but are not supplied facts."
+        ],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 3,
+          "compliance": 3
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": false,
+            "evidence": "Retains unrecorded temperature, caution due to uncertainty, unperformed recommended test and nonfinal selection. However, 'Vi har ikke undersøkt hvordan ...' broadens the source's limitation 'Forsøket viser ikke hvordan ...' from this experiment's demonstrated scope to the authors' investigation history."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": false,
+            "evidence": "Simplifies the bureaucratic wording, but repeated 'Vi' introduces experimenter/decision-maker identities and 'Vi har ikke undersøkt' changes the scope of the evidentiary limitation."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep five headings and all three loads matched respectively to all three voltages.",
+            "passed": true,
+            "evidence": "Retains all five headings and the load sequence 0,10 A, 0,30 A, 0,50 A matched respectively to 5,01 V, 4,96 V, 4,89 V."
+          },
+          {
+            "text": "Preserve 60 s, accuracy ±0,02 V, maximum 0,15 V [1], measured difference 0,12 V.",
+            "passed": true,
+            "evidence": "Retains 60 s at each load, stated instrument accuracy ±0,02 V, maximum datasheet lastregulering 0,15 V with [1], and measured change 0,12 V."
+          },
+          {
+            "text": "Keep unrecorded temperature, measurement uncertainty, no long-duration inference and unperformed recommended test/unfinalized choice.",
+            "passed": true,
+            "evidence": "Retains unrecorded casing temperature, explicit caution due to uncertainty, the experiment's inability to show hours-long behavior, the unperformed recommended temperature test and the nonfinal component choice."
+          },
+          {
+            "text": "Improve bureaucratic prose without dropping facts to meet style rules.",
+            "passed": true,
+            "evidence": "Simplifies the purpose and method wording without losing information. 'Vi anbefaler' retains recommendation status even though the redundant 'Dette er en anbefaling' is removed."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "The six preferred reports retain the quantitative facts and qualifications while simplifying bureaucratic prose. Their small differences are all acceptable and do not support a reliable winner. B is fluent and preserves the numbers but changes the scope of the long-duration limitation and adds actors.",
+    "eval_limitations": [
+      "The source does not identify the experimenters or decision makers or report investigations outside the described experiment.",
+      "The repaired fixture has actual report-heading and paragraph newlines; all protected literals were verified as exact substrings. No formatting penalty from the earlier fixture is carried over.",
+      "The source's numerical data and datasheet claim are treated as supplied facts, not independently validated engineering results.",
+      "Equivalent purpose wording and small sentence-order changes do not establish a meaningful ranking among the preferred outputs."
+    ]
+  },
+  {
+    "id": "E09",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep robust control, leverage ratio, Equation 2, nominal operating point and specified envelope meaning.",
+            "passed": true,
+            "evidence": "Preserves all named terms and specified envelope verbatim."
+          },
+          {
+            "text": "Do not blacklist legitimate terminology or casualize the report.",
+            "passed": true,
+            "evidence": "Preserves the source's formal technical register and legitimate terminology."
+          },
+          {
+            "text": "No invented explanation of the technical definitions.",
+            "passed": true,
+            "evidence": "Adds no definitions or claims; the output is identical to the source."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "All seven outputs are identical to the already clear source. Restraint is appropriate for a light copyedit; there is no basis for preferring one label.",
+    "eval_limitations": [
+      "Equation 2 and the underlying definitions are not supplied, so their technical validity cannot be checked.",
+      "Identical text receives identical judgments."
+    ]
+  },
+  {
+    "id": "E10",
+    "results": [
+      {
+        "label": "A",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet det' retains the source's readily understood referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "E",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "F",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      },
+      {
+        "label": "G",
+        "fidelity": "pass",
+        "issues": [],
+        "ratings": {
+          "clarity": 5,
+          "naturalness": 5,
+          "proportionality": 5,
+          "compliance": 5
+        },
+        "expectations": [
+          {
+            "text": "Keep first-person voice and supplied actual mistake/correction.",
+            "passed": true,
+            "evidence": "Retains 'Jeg', excess schematic time, initial component-value suspicion, backward pin-number reading and improved measurement/calculation agreement after correction."
+          },
+          {
+            "text": "No new emotion, anecdote, universal lesson or resolved cause for high-load deviation.",
+            "passed": true,
+            "evidence": "Adds no event, emotion or lesson; retains 'Jeg vet fortsatt ikke hvorfor avviket økte ved den høyeste lasten'."
+          },
+          {
+            "text": "Clear natural Norwegian; retain unresolved uncertainty.",
+            "passed": true,
+            "evidence": "Natural Norwegian; 'rettet feilen' clarifies the existing referent, and uncertainty remains explicit."
+          }
+        ]
+      }
+    ],
+    "preferred_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "reason": "All seven preserve the first-person experience and unresolved cause. Differences in emphasis, word order and 'det' versus 'feilen' are acceptable and too slight to establish a winner.",
+    "eval_limitations": [
+      "Only the supplied experience is available; the cause of the high-load deviation cannot be assessed.",
+      "Preference for trimming or retaining the self-emphasis 'det var jeg som' is subjective and does not establish a fidelity defect."
+    ]
+  }
+]

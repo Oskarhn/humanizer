@@ -1,0 +1,10 @@
+[
+  {
+    "id": "E07",
+    "output": "Inngangsområdet er 18–24 V. Vi målte avviket til −0,25 V. Vi bruker $P=U^2/R$ i beregningen, og rapporten sier «Ingen termisk test er utført» [4]. Vi brukte kommandoen `simulator --step 0.01`.\n\n```text\nlimit = 0.25\n```"
+  },
+  {
+    "id": "E08",
+    "output": "## Formål\nVi undersøker om regulator A kan brukes ved varierende last.\n\n## Metode\nVi satte lasten til 0,10 A, 0,30 A og 0,50 A og holdt hvert lastnivå i 60 s. Måleinstrumentet hadde en oppgitt nøyaktighet på ±0,02 V.\n\n## Resultater\nVi målte utgangsspenningen til henholdsvis 5,01 V, 4,96 V og 4,89 V. Tabellen i databladet oppgir maksimalt 0,15 V lastregulering ved disse betingelsene [1]. Vi registrerte ikke kapslingstemperaturen.\n\n## Diskusjon\nSpenningen endret seg med 0,12 V mellom første og siste lastnivå. Det er under databladets grense, men vi må ta hensyn til måleusikkerheten når vi vurderer resultatet. Vi har ikke undersøkt hvordan regulatoren oppfører seg ved kontinuerlig drift over flere timer.\n\n## Konklusjon\nVi anbefaler en lengre temperaturtest før vi velger regulator A. Vi har ikke gjennomført testen eller tatt en endelig beslutning om komponentvalget."
+  }
+]

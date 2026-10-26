@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer"
+  short_description: "Natural prose with facts and authorial voice intact"
+  default_prompt: "Use $humanizer to revise this text for natural expression, preserving its facts, meaning, genre, and my voice."
