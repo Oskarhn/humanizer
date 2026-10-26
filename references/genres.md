@@ -69,4 +69,4 @@ A tightly linear plot, happy ending, or explicit theme can be intentional and ef
 
 When a document includes contracts, legal definitions, safety instructions, consent language, disclosures, or regulated claims, preserve their operative meaning and exact wording when required. Do not casually replace “shall,” “may,” “only,” “unless,” or defined terms. Where simplification would require a substantive decision, supply it separately and identify the effect. Do not add a generic legal or safety warning to ordinary editing work.
 
-Research IDs refer to [evidence.md](evidence.md).
+Research IDs refer to the [archived research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md).

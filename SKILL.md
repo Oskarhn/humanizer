@@ -3,7 +3,7 @@ name: humanizer
 description: Draft or revise substantial reader-facing prose so it sounds natural, specific, and consistent with the author's voice. Use for documents, reports, articles, emails, and requests to humanize, de-AI, or review AI-sounding text. Preserve facts, uncertainty, citations, and genre; do not apply to code or structured data unless prose editing is requested.
 license: MIT
 metadata:
-  version: "1.1.1"
+  version: "1.1.2"
   evidence-reviewed: "2026-10-26"
 ---
 
@@ -22,7 +22,7 @@ Priority: **meaning and factual accuracy → authorial intent and voice → read
 - Do not promise undetectability, assign a made-up human percentage, or infer authorship from prose. If asked about detection, briefly explain that naturalness and detector responses are different outcomes, then perform the useful editing. Do not repeat this caveat in ordinary writing tasks.
 - Do not add deliberate mistakes, random slang, gratuitous profanity, fake anecdotes, homoglyphs, or invisible characters. Preserve intentional, appropriate colloquial language already present.
 - Work with the tools already available. The core workflow requires no Python, API, browsing, or detector. Do not upload the user's text to external services without authorization.
-- For watermark questions, read [watermarks-and-provenance.md](references/watermarks-and-provenance.md). A rewrite can carry an existing or newly embedded statistical signal. Unicode cleanup, plain-text export, and a lower style-detector score do not verify its absence; never present this skill or its review script as a watermark detector.
+- Keep style editing separate from statistical watermark verification. A rewrite can carry an existing or newly embedded statistical signal. Unicode cleanup, plain-text export, and a lower style-detector score do not verify its absence.
 
 ## Choose the work
 
@@ -48,9 +48,6 @@ Ask a focused question only if the answer would materially change the work and c
 - For Norwegian or English-specific choices and voice calibration, read [languages-and-voice.md](references/languages-and-voice.md).
 - For academic/technical writing, business documents, journalism, or fiction, read the relevant section of [genres.md](references/genres.md).
 - For difficult before/after decisions, consult [examples.md](references/examples.md). These are original teaching examples, not phrases to copy into every output.
-- For research, detector questions, or disputed rules, read [evidence.md](references/evidence.md). It distinguishes findings from editorial inference and lists primary sources and limitations.
-- For statistical watermarks, provenance results, or claims about SynthID/textGrain, read [watermarks-and-provenance.md](references/watermarks-and-provenance.md). Keep this material out of ordinary prose-only editing unless relevant to the request.
-- For maintainer testing, use [the evaluation protocol](evals/README.md). Evaluation material is not needed during normal editing.
 
 ## Edit in four passes
 
@@ -101,14 +98,6 @@ Compare revised claims with the original, not just with your recollection of it.
 5. **Delivery:** Requested language, format, length, and structure intact? Quotes, references, links, tables, formulas, and code preserved?
 
 For long documents, edit section by section using the same ledger; then check transitions, terminology, cross-references, and the overall argument in one final pass. State partial coverage if only part of the document was accessible.
-
-If a script would help with a substantial plain-text/Markdown edit, optionally run:
-
-```text
-python scripts/review_text.py revised.md --original original.md
-```
-
-It reports changed literal numbers, URLs, inline citations, code spans, and optional locks, plus a few surface review cues. It cannot establish semantic equivalence, truth, quality, authorship, or detector resistance. Review flags in context; a clean result is not a fidelity certificate. See the [script guide](scripts/README.md).
 
 Stop after the rewrite and fidelity pass when the brief is satisfied. Re-edit only unresolved problems. Endless paraphrasing tends to flatten voice and introduce drift.
 

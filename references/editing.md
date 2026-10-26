@@ -105,4 +105,4 @@ When two source claims conflict, preserve and flag the conflict rather than arbi
 
 After the initial rewrite, repair actual residual problems and run the source comparison. Retain a strong passage unchanged. If a new version is merely different, prefer the one closer to the writer's voice and intended meaning. “More edited” is not a quality measure.
 
-Research IDs refer to [evidence.md](evidence.md).
+Research IDs refer to the [archived research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md).

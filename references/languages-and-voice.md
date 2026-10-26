@@ -82,4 +82,4 @@ The skill's content and fidelity checks transfer more safely than its surface ex
 
 Preserve intentional code-switching, quotations, names, and technical terms. If the assignment is a translation, use translation fidelity as well as this editing workflow; do not treat localization as permission to replace facts.
 
-Research IDs refer to [evidence.md](evidence.md).
+Research IDs refer to the [archived research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md).

@@ -1,13 +1,2 @@
-__pycache__/
-*.py[cod]
-.venv/
-.DS_Store
-.pytest_cache/
-evals/runs/
-*.pdf
-*.zip
-*.bundle
 dist/
-.env
-.env.*
-!.env.example
+__pycache__/
