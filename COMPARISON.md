@@ -42,7 +42,11 @@ There was no independent human-reader panel, repeated multi-model study, native-
 
 The [archived comparison record](https://github.com/Oskarhn/humanizer/tree/304f74ebe1c57e5b58bed384cb286e20206eb950/evals/comparison-2026-10-26) contains the cases, outputs, corrections, and judgments. They remain outside the current user package.
 
-## Exact source versions
+## Additional provenance-tool review
+
+[Watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover/tree/5c180932a00c793261177f79aee21db8929f3fe2), reviewed separately on 29 October 2026, combines character cleanup, statistical-rewrite tooling, and file-provenance tools. It was **not** a condition in the fourteen-task comparison above. Its controlled SynthID test setup does not establish commercial-detector evasion or textGrain removal. Humanizer adopts inspection and preservation ideas in its optional text-hygiene guidance, without bundling that project's service or using its stylometry scores as editing targets.
+
+## Exact source versions in the original comparison
 
 - [Academic Humanizer](https://github.com/AIScientists-Dev/academic-humanizer/tree/94b88b23703bed7df507acae7d6d5876209a0cdf)
 - [Hannsxpeter](https://github.com/hannsxpeter/humanizer/tree/e8f1248a7d4919689c1f942e356ed95b102d9f07)

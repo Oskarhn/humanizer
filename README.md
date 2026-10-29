@@ -13,6 +13,7 @@ Choose it when a fluent rewrite must preserve what the document actually establi
 - **Keep the right register.** A methods section can remain formal. Useful passive voice, technical terms, headings, and conclusions can stay. There is no universal ban on particular words or punctuation.
 - **Improve the argument before swapping words.** The skill examines paragraph purpose, repetition, and logical connections, then compares the revision with the source.
 - **Match the author without inventing a persona.** Writing samples guide expression; they do not supply new experiences or opinions. The default result is one revised text, with an explanation when requested.
+- **Handle character cleanup in context.** An optional inspection pass protects code, quotations, mathematical notation, and meaningful multilingual characters. It keeps Unicode cleanup separate from claims about statistical watermarks.
 
 It is a good fit for technical and academic reports, school assignments, and other documents where precision matters. You can also use it for articles and emails. A clear passage may need almost no change.
 
@@ -97,6 +98,14 @@ numbers, citations, and uncertainty. Return only the revised text.
 
 You can request a light edit, a deep rewrite, a review without rewriting, or a new draft from supplied facts. Add a writing sample when matching your own voice matters.
 
+For a character audit or detector-focused task, say what you want checked. The [text-hygiene reference](references/text-hygiene.md) explains the extra pass and what its results can establish. It does not add a background service or automatic metadata removal.
+
+```text
+Use humanizer to inspect this report for unintended hidden characters.
+Preserve code, quotations, equations, and meaningful language characters.
+Keep all claims if you rewrite, and tell me what was actually checked.
+```
+
 Both clients can select the skill automatically when relevant. Name it explicitly when you want to ensure it is requested. A local installation does not upload the skill to Claude.ai or another cloud account.
 
 ## Update
@@ -109,7 +118,7 @@ git pull --ff-only
 
 ## What is included
 
-[SKILL.md](SKILL.md) contains the workflow. The four files in `references/` provide editing decisions, language and voice guidance, genre guidance, and worked examples. `agents/openai.yaml` supplies Codex display metadata.
+[SKILL.md](SKILL.md) contains the workflow. The five files in `references/` cover editing decisions, language and voice, genres, examples, and optional text hygiene. `agents/openai.yaml` supplies Codex display metadata.
 
 The skill improves writing; it does not certify authorship, guarantee undetectability, or verify watermark removal. Research notes and earlier evaluations remain in the [project history](https://github.com/Oskarhn/humanizer/tree/304f74ebe1c57e5b58bed384cb286e20206eb950).
 

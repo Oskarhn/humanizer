@@ -3,8 +3,8 @@ name: humanizer
 description: Draft or revise substantial reader-facing prose so it sounds natural, specific, and consistent with the author's voice. Use for documents, reports, articles, emails, and requests to humanize, de-AI, or review AI-sounding text. Preserve facts, uncertainty, citations, and genre; do not apply to code or structured data unless prose editing is requested.
 license: MIT
 metadata:
-  version: "1.1.3"
-  evidence-reviewed: "2026-10-26"
+  version: "1.2.0"
+  evidence-reviewed: "2026-10-29"
 ---
 
 # Humanizer
@@ -39,6 +39,7 @@ Ask a focused question only if the answer would materially change the work and c
 | Write a document | Draft from the user's actual points, then run the same revision and fidelity checks |
 | Continue my draft / match my voice | Match observable usage and local continuity, not a generic persona |
 | Make it undetectable | Edit for naturalness and specificity without guaranteeing detector outcomes |
+| Reduce watermark or detector signals | Establish the requested scope; use substantive editing when authorized, and distinguish cleanup from verified detection results |
 
 “Deep” permits substantial expression changes, not invented facts or a different argument. In fiction, new events, motives, or backstory require creative-development scope; an ordinary style edit preserves them.
 
@@ -48,6 +49,7 @@ Ask a focused question only if the answer would materially change the work and c
 - For Norwegian or English-specific choices and voice calibration, read [languages-and-voice.md](references/languages-and-voice.md).
 - For academic/technical writing, business documents, journalism, or fiction, read the relevant section of [genres.md](references/genres.md).
 - For difficult before/after decisions, consult [examples.md](references/examples.md). These are original teaching examples, not phrases to copy into every output.
+- For invisible-character cleanup, mixed-script text, or watermark/detector-focused editing, read [text-hygiene.md](references/text-hygiene.md). Keep this extra pass out of ordinary short edits unless an actual problem is visible.
 
 ## Edit in four passes
 
@@ -96,6 +98,8 @@ Compare revised claims with the original, not just with your recollection of it.
 3. **Voice:** Does it fit this writer and reader, without imposing a standard “human” persona?
 4. **Readability:** Is the reasoning easier to follow? Did brevity remove needed context? Did “humanizing” produce fragments, awkward synonyms, or another cliché?
 5. **Delivery:** Requested language, format, length, and structure intact? Quotes, references, links, tables, formulas, and code preserved?
+
+If character cleanup was requested, inspect the actual final text again and retain a source copy. A change count requires an actual inspection; a clean style review is not a Unicode or watermark check. When choosing between rewrites, prefer the clearest faithful version over the largest word change or lowest heuristic score.
 
 For long documents, edit section by section using the same ledger; then check transitions, terminology, cross-references, and the overall argument in one final pass. State partial coverage if only part of the document was accessible.
 
