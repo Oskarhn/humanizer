@@ -65,3 +65,35 @@ Values are the model's two-class AI softmax scores multiplied by 100. They are n
 This supports a useful local measurement capability and an improvement in this small sample. It does not establish reliability across reports, generators, long documents or detector versions. The sources were synthetic; the reviews were LLM-based, with no independent human panel. Exact host model IDs and token usage were unavailable. Native Claude generation, Pangram/Copyleaks/Sapling transfer, detector accuracy, and watermark removal were not tested by this evaluation. Ordinary/English editing instructions and the five existing practical references were preserved.
 
 The evaluation data, raw candidates, reviews, query logs and development failures are kept outside the installable package. They are not bundled in the release ZIP. The source and setup instructions are sufficient to inspect the method and run a new local test; the small test above should not be treated as an independently reproduced benchmark.
+
+## Quality-first follow-up
+
+Version 1.3.1 prioritizes Bokmål and English. Its ordinary editing instructions and English language guidance are unchanged. The optional workflow now considers complete source-ledger redrafts alongside paragraph combinations and explicitly compares readability before using detector scores to choose a text.
+
+The three previously high-scoring report topics were revisited on 29 October 2026. The rectifier and statistics sources and their accepted comparison texts were translated from Nynorsk to Bokmål first, with a separate check of every fact, number, qualification and work-status distinction. These same-language comparisons must not be mixed with the older Nynorsk scores.
+
+| Bokmål report | Accepted comparison | Selected result | Decision |
+| --- | ---: | ---: | --- |
+| Probe frequency response | 72.80 | 6.39 | Keep a source-faithful, equally readable alternative |
+| Rectifier and ripple | 4.00 | 4.00 | Retain the translated comparison |
+| Repeatability statistics | 98.10 | 98.10 | Retain the comparison after two unsuccessful rounds |
+
+The 4.00 rectifier score was obtained by translating the earlier accepted text, before the new method ran. It is a language-change observation, not an editing improvement. Two blind LLM reviewers found no substantive source changes in the selected outputs and rated their readability equal to the accepted comparison. The English candidate set also contained two obligation shifts; those drafts were rejected.
+
+Fresh validation used three independently authored synthetic Bokmål reports on DAC settling, sensor hysteresis and thermocouple compensation. Some low-scoring drafts received paired “equal readability” labels despite lower numerical clarity ratings and specific new awkwardness. The user required no readability sacrifice, so selection was tightened conservatively: both the paired judgment and each reviewer's clarity rating had to be no worse than the matched normal 1.3.0 revision. The earlier, less restrictive analysis was retained; no further generation or detector tuning followed this decision.
+
+| Fresh report | Normal 1.3.0 | Quality-preserving result |
+| --- | ---: | ---: |
+| DAC settling | 100.00 | 100.00 |
+| Sensor hysteresis | 99.99 | 99.99 |
+| Thermocouple compensation | 99.98 | 99.92 |
+
+All final readability ratings were 5/5 from both reviewers. Two normal revisions were retained. The remaining change was negligible for detection, and all three stayed above 50. This follow-up does **not** demonstrate a general detector advantage without a readability trade-off. The synthetic sources also had two nonblocking documentation/terminology imprecisions, recorded in their independent audit. A fresh candidate read the identical installed main instructions before the specified frozen copy; this duplicate exposure was recorded, and no outcomes or prior rewrites were exposed.
+
+### Commercial-detector check
+
+Texts were selected and frozen before seeing commercial results. Copyleaks completed seven distinct scans at sensitivity 2/3, with three identical-text reuses, before reporting its free scan limit. The complete Bokmål pairs were probe 0→0, rectifier 100→100 and statistics 100→100. An unchanged English pair was also 100→100. Two changed English after-texts scored 0 and 100, but their before-texts could not be measured after the quota, so no English improvement can be inferred from them. The served model build was not exposed.
+
+Sapling completed five distinct English scans plus one identical-text reuse. The three pairs were 100→99.9, 100→100 and 100→99.9: all still flagged, with no practical improvement. Native editor paragraph rendering added line breaks; all other characters and every submitted own-text field were verified. Fresh responses and matching result text prevented stale scores from being mistaken for measurements. Sapling's [published supported-language list](https://sapling.ai/docs/api/detector/) excludes Norwegian; no Norwegian efficacy claim is made for it.
+
+These are small, model-reviewed experiments, not human-reader studies, detector accuracy estimates or native-Claude generation tests. All raw texts, rejected candidates, reviews, query logs, quota failures and the stricter-quality correction remain outside the installable package. No extra account, payment, profile reset or quota bypass was used.

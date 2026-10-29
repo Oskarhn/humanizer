@@ -2,14 +2,14 @@
 
 A writing skill for **Codex and Claude Code**, with particular attention to reports, academic work, and English/Norwegian prose. It helps make the writing clearer while preserving facts, uncertainty, citations, and the author's voice.
 
-English, Norwegian Bokmål, and Nynorsk have specific guidance. The ordinary writing workflow needs no Python, API key, or external service. An optional Norwegian detector check has a separate local setup.
+English and Norwegian Bokmål are the main focus. Existing Nynorsk guidance remains available for supplied Nynorsk texts. The ordinary writing workflow needs no Python, API key, or external service. An optional Norwegian detector check has a separate local setup.
 
 ## Why choose this Humanizer?
 
 Choose it when a fluent rewrite must preserve what the document actually establishes. Its instructions focus on decisions that matter in reports:
 
 - **Keep the evidence intact.** A simulation stays a simulation. Missing data do not become proof that nothing happened. Measurements, units, citations, and qualifications stay attached to their claims.
-- **Write natural Norwegian as well as English.** Dedicated guidance covers Bokmål/Nynorsk, decimal commas, compounds, English calques, and the writer's established word forms.
+- **Write natural Bokmål as well as English.** Dedicated guidance covers decimal commas, compounds, English calques, and the writer's established word forms.
 - **Keep the right register.** A methods section can remain formal. Useful passive voice, technical terms, headings, and conclusions can stay. There is no universal ban on particular words or punctuation.
 - **Improve the argument before swapping words.** The skill examines paragraph purpose, repetition, and logical connections, then compares the revision with the source.
 - **Match the author without inventing a persona.** Writing samples guide expression; they do not supply new experiences or opinions. The default result is one revised text, with an explanation when requested.
@@ -110,7 +110,7 @@ Both clients can select the skill automatically when relevant. Name it explicitl
 
 ## Optional local Norwegian detector check
 
-Version 1.3.0 adds a tool that can **measure actual NorBERT scores** and search combinations of faithful paragraph alternatives. The assistant writes the alternatives and checks their meaning; a small offline Python helper ranks complete texts. Use this mode explicitly when measured detector response matters. Ordinary editing and the English instructions remain unchanged.
+The optional tool can **measure actual NorBERT scores** and search combinations of faithful paragraph alternatives. Version 1.3.1 adds source-ledger redrafting and a stricter check that lower scores do not come at the cost of readability. The assistant writes the alternatives and checks their meaning; a small offline Python helper ranks complete texts. Use this mode explicitly when measured detector response matters. Ordinary editing and the English instructions remain unchanged.
 
 ```text
 Use humanizer with the local NorBERT check on this Norwegian report.
@@ -119,7 +119,9 @@ normal revision with faithful alternatives, check readability, and rescore
 any repairs. Report the final measured result, including failures.
 ```
 
-In one local test on six new synthetic technical reports, the mean detector score fell from **86.40 to 46.70** on a 0–100 scale. Three of six final texts scored below 50, compared with one of six normal 1.2.0 revisions. Two independent blind LLM reviews found no substantive factual changes in the selected outputs. Readability remained acceptable but scored lower than ordinary editing. Three texts still received an AI verdict; this is a small model-specific result, not a reliable pass rate or a test of commercial detectors.
+In the original 1.3.0 test on six new synthetic technical reports, the mean detector score fell from **86.40 to 46.70** on a 0–100 scale. Three of six final texts scored below 50, compared with one of six normal 1.2.0 revisions. Two independent blind LLM reviews found no substantive factual changes in the selected outputs. Readability remained acceptable but scored lower than ordinary editing. Three texts still received an AI verdict; this is a small model-specific result, not a reliable pass rate or a test of commercial detectors.
+
+A later quality-first check improved one previously tested Bokmål probe report from 72.80 to 6.39. The statistics report did not improve. Two historical Nynorsk cases were translated before testing; the rectifier text already scored 4.00 after translation, so that change is not a skill gain. On three fresh Bokmål reports, candidates with lower clarity ratings were rejected and no practical detector improvement remained. Sapling still flagged all three English reports. Completed Copyleaks comparisons showed no gain; two English baselines were unavailable after its free quota was reached. [Details and limits](BACKGROUND.md#quality-first-follow-up).
 
 Read the [workflow, setup and command reference](references/norbert-review.md) before using it. The helper requires a separately downloaded, pinned detector and local runtime. It never downloads models, calls an LLM or uploads text. The [background](BACKGROUND.md#local-norwegian-evaluation) gives the test details and limitations.
 

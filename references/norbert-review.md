@@ -1,6 +1,6 @@
-# Norwegian editing with an actual local detector
+# Measured editing for Bokmål reports
 
-Use this optional mode only when the user requests Norwegian detector-focused editing and a compatible local NorBERT detector is available. Keep the ordinary editing workflow and English guidance unchanged. A provider/model-specific measurement is not a guarantee about Pangram, Copyleaks, Sapling, authorship, or watermarks.
+Use this optional local mode when the user requests Bokmål detector-focused editing and a compatible NorBERT detector is available. The separately documented transfer check also applies to English when the requested service supports it. Keep the ordinary editing workflow and English guidance unchanged. A provider/model-specific measurement is not a guarantee about Pangram, Copyleaks, Sapling, authorship, or watermarks.
 
 ## Establish the test
 
@@ -12,7 +12,7 @@ First score the complete source and a normal source-checked revision. If the ord
 
 When substantive changes are authorized, split the source into paragraph-sized claim groups. Preserve order where required by the method. For each group, produce three complete, grammatical alternatives that retain every distinct fact, numeric association, qualification, exclusion, recommendation and work status. Keep protected quotes, code, formulas, citations and terminology accurate.
 
-Vary real expression: result-centered reporting, conventional impersonal academic phrasing, clause order and sentence boundaries. Keep the requested Bokmål/Nynorsk variety. Do not add a persona, anecdote, typo, rare synonym, irrelevant detail, invisible character or padding merely to affect a score. Do not remove an inconvenient limitation. Missing evidence remains missing evidence; it does not become an assertion that the work was never performed.
+Start from the source claim ledger when the existing wording keeps producing weak alternatives. Write a complete report for the same reader before adjusting local wording. Explore result-first and method-first explanations, clause order and sentence boundaries. Use ordinary technical Bokmål; keep passive voice where it fits, but do not manufacture impersonal nominalizations as a detector tactic. Keep the requested Bokmål/Nynorsk variety. Do not add a persona, anecdote, typo, rare synonym, irrelevant detail, invisible character or padding merely to affect a score. Do not remove an inconvenient limitation. Missing evidence remains missing evidence; it does not become an assertion that the work was never performed.
 
 The supplied helper can rank full-text combinations with bounded beam search. Its default budget is four retained paths, two passes and at most 256 actual local inferences per document. It records cache reuse separately and always retains an evaluated original option. This is a local search over authored alternatives, not a replication of token-level adversarial decoding or model training.
 
@@ -20,9 +20,17 @@ The supplied helper can rank full-text combinations with bounded beam search. It
 
 The helper's numeric and length screens do not establish meaning preservation. Review each shortlisted complete text against the original in both directions: every source claim needs a counterpart, and every revised claim needs source support. Inspect evidence status, modality, causality and citation attachment explicitly. Reject drifting candidates before selection. Where available, a separate blind source review adds confidence; it does not replace the author's factual review.
 
-Read the surviving texts for coherence, register and voice. A disjoint combination of individually correct paragraphs is not an acceptable report. If a source-only repair is needed, score the repaired final text again. Do not present the pre-repair score as its result.
+Read the surviving texts for coherence, register and voice. Compare readability directly with the normal revision and the previously accepted version. A lower detector score does not justify a heavier or less natural report. If a review calls two texts equally readable but gives the revision a lower clarity rating or identifies new awkward phrasing, resolve that inconsistency before accepting it. Retain the comparison text while the quality judgment remains unresolved. Check frequency/value lists and other ordered associations aloud: write an explicit mapping when compressed wording makes the reader reconstruct it. A disjoint combination of individually correct paragraphs is not an acceptable report. If a source-only repair is needed, score the repaired final text again. Do not present the pre-repair score as its result.
 
-When detection is the user's stated priority, choose the lowest measured target score among faithful, clear versions that still meet the writing brief. Retain the normal revision or source if no acceptable improvement exists. Report that outcome rather than manufacturing a pass. Do not average percentages from unrelated detectors or optimize a named detector through an unvalidated proxy.
+When detection is the user's stated priority, first retain only faithful versions that match or improve the comparison text's readability. Then choose among those by measured target score. If three paragraph alternatives all share a weak construction, generate a small set of complete source-ledger redrafts rather than repeating that construction through more search passes. Review complete redrafts as whole texts; the existing helper's score command can measure them directly. Keep the comparison text as an evaluated fallback. Retain the normal revision or source if no acceptable improvement exists. Report that outcome rather than manufacturing a pass. Do not average percentages from unrelated detectors or optimize a named detector through an unvalidated proxy.
+
+## Transfer checks for Bokmål and English
+
+Treat every requested detector as a separate test. Freeze the comparison and selected full texts after source and readability checks, then submit those exact versions through an authorized interface. Record the input hash, provider output field, configuration, date and observed model version. Check that displayed results belong to the current input; a score left on screen from an earlier text is not a new measurement.
+
+Use supported languages for efficacy claims. Sapling's published language list does not include Norwegian, so use English for its meaningful comparison. A Norwegian number from an unsupported service is at most exploratory. A local NorBERT gain does not establish a Copyleaks or Sapling gain. Do not average their different score fields into a single “human percentage.”
+
+Keep unsuccessful and unchanged cases. Identical before/after text can share one recorded result; label reuse rather than counting a second scan. Respect free limits and stop on a quota or human-verification gate. Record missing comparisons as unavailable. Do not replace a missing baseline with a guessed score, reset a profile to obtain more scans, or silently create a paid/account-dependent workflow.
 
 ## Coverage and delivery
 

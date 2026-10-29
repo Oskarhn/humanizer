@@ -59,3 +59,5 @@ Choose the workflow that fits your documents. For this project, the practical ca
 ## Later local detector experiment
 
 Version 1.3.0 adds an optional Norwegian measurement/search helper. Its six-report test compares this project with its own 1.2.0 workflow, not with the other skills above. The [method and final results](BACKGROUND.md#local-norwegian-evaluation) are separate from the original editing comparison. They do not establish a new overall ranking.
+
+The [1.3.1 follow-up](BACKGROUND.md#quality-first-follow-up) uses a stricter readability check and actual Copyleaks/Sapling observations. It improves one known Bokmål case, but does not establish broad detector success or a new ranking of the other skills.
