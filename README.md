@@ -108,22 +108,22 @@ Keep all claims if you rewrite, and tell me what was actually checked.
 
 Both clients can select the skill automatically when relevant. Name it explicitly when you want to ensure it is requested. A local installation does not upload the skill to Claude.ai or another cloud account.
 
-## Optional local Norwegian detector check
+## Optional detector comparisons
 
-The optional tool can **measure actual NorBERT scores** and search combinations of faithful paragraph alternatives. Version 1.3.1 adds source-ledger redrafting and a stricter check that lower scores do not come at the cost of readability. The assistant writes the alternatives and checks their meaning; a small offline Python helper ranks complete texts. Use this mode explicitly when measured detector response matters. Ordinary editing and the English instructions remain unchanged.
+Humanizer's ordinary writing guidance has not been shown to lower commercial-detector scores reliably. The core English/Bokmål editing references remain the same as in 1.2.0. Later version numbers describe workflow and reliability changes, not a trained model becoming progressively less detectable.
+
+The optional local tool measures a pinned NorBERT classifier and compares complete texts. **Version 1.3.2 fixes reference retention:** source, working draft and an optional earlier accepted text are measured and kept outside the search shortlist. If an existing text already satisfies the brief and measured target, keep it. A lower score still requires source fidelity and no readability loss.
 
 ```text
-Use humanizer with the local NorBERT check on this Norwegian report.
-Keep every factual claim, qualification and recommendation. Compare the
-normal revision with faithful alternatives, check readability, and rescore
-any repairs. Report the final measured result, including failures.
+Use humanizer to review this report. Keep the original and my previously
+accepted draft. If you compare detector results, use the same text, service
+and settings. Retain an acceptable earlier version when no verified
+improvement exists. Report unchanged and unavailable results honestly.
 ```
 
-In the original 1.3.0 test on six new synthetic technical reports, the mean detector score fell from **86.40 to 46.70** on a 0–100 scale. Three of six final texts scored below 50, compared with one of six normal 1.2.0 revisions. Two independent blind LLM reviews found no substantive factual changes in the selected outputs. Readability remained acceptable but scored lower than ordinary editing. Three texts still received an AI verdict; this is a small model-specific result, not a reliable pass rate or a test of commercial detectors.
+A same-text website audit reproduced three archived 1.2.0 ZeroGPT scores exactly: 39.9, 28.1 and 46.5. Those same texts scored 100 on Sapling both earlier and during the audit. Low results on one service therefore did not establish a general version advantage. Historical local gains also had different sources and, in some tests, a readability cost. [Evidence and comparison limits](BACKGROUND.md#version-and-regression-audit).
 
-A later quality-first check improved one previously tested Bokmål probe report from 72.80 to 6.39. The statistics report did not improve. Two historical Nynorsk cases were translated before testing; the rectifier text already scored 4.00 after translation, so that change is not a skill gain. On three fresh Bokmål reports, candidates with lower clarity ratings were rejected and no practical detector improvement remained. Sapling still flagged all three English reports. Completed Copyleaks comparisons showed no gain; two English baselines were unavailable after its free quota was reached. [Details and limits](BACKGROUND.md#quality-first-follow-up).
-
-Read the [workflow, setup and command reference](references/norbert-review.md) before using it. The helper requires a separately downloaded, pinned detector and local runtime. It never downloads models, calls an LLM or uploads text. The [background](BACKGROUND.md#local-norwegian-evaluation) gives the test details and limitations.
+Read the [workflow, setup and command reference](references/norbert-review.md) for the optional tool. It requires a separately downloaded detector/runtime, never uploads text, and does not generate rewrites. Ordinary editing needs no extra runtime. The reference-retention fix prevents supplied baselines from disappearing; it is not evidence of a new detector-bypass capability.
 
 ## Update
 

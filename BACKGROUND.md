@@ -97,3 +97,29 @@ Texts were selected and frozen before seeing commercial results. Copyleaks compl
 Sapling completed five distinct English scans plus one identical-text reuse. The three pairs were 100→99.9, 100→100 and 100→99.9: all still flagged, with no practical improvement. Native editor paragraph rendering added line breaks; all other characters and every submitted own-text field were verified. Fresh responses and matching result text prevented stale scores from being mistaken for measurements. Sapling's [published supported-language list](https://sapling.ai/docs/api/detector/) excludes Norwegian; no Norwegian efficacy claim is made for it.
 
 These are small, model-reviewed experiments, not human-reader studies, detector accuracy estimates or native-Claude generation tests. All raw texts, rejected candidates, reviews, query logs, quota failures and the stricter-quality correction remain outside the installable package. No extra account, payment, profile reset or quota bypass was used.
+
+## Version and regression audit
+
+The 1.3.2 audit found a missing continuity check: early good outputs had not been carried unchanged through the later website comparisons. Case IDs were reused across different studies, newer tests concentrated on difficult texts, detectors and languages differed, and a later quality gate rejected readability losses previously accepted at four out of five. These changes prevent treating the sequence of study averages as a release ranking.
+
+The audit recovered the exact archived 1.2.0 English outputs and their source texts. Canonical UTF-8/LF inputs were checked against the original frozen hashes, submitted to the actual websites and checked against fresh responses. Three current ZeroGPT response values matched the rendered scores and the historical values exactly:
+
+| Archived 1.2.0 output | ZeroGPT then | ZeroGPT retest | Sapling then | Sapling retest |
+| --- | ---: | ---: | ---: | ---: |
+| Observational training-method comparison | 39.9 | 39.9 | 100 | 100 |
+| RC filter report | 28.1 | 28.1 | 100 | 100 |
+| Firmware acquisition report | 46.5 | 46.5 | 100 | 100 |
+
+The raw source ZeroGPT scores also repeated: 22.5, 33.3 and 34.6. Thus two highlighted low 1.2.0 outputs were worse than their sources. Different generations under that same version scored 83.0, 57.3 and 50.0. These observations demonstrate output variability and provider-specific results; they do not establish that later installed releases became generally worse or better.
+
+The early 1.2.0 Bokmål power report really did receive a Copyleaks zero. It could not be rescanned during this audit because the existing free quota had been reached; no new Copyleaks result is claimed. The failed compact prototype and German/French pivot experiments were never installed. The four ordinary editing references and Codex metadata are unchanged from 1.1.3 through 1.3.2. Initial fidelity review also covered one assigned reviewer per output, whereas later studies used two per candidate; that stronger coverage must not be projected backward.
+
+An exploratory file-upload reading differed from the text checks, but was not confirmed against its matching response. Subsequent response-matched file and text checks both returned 39.9. Those provisional readings are retained as unverified observations; they do not prove a backend, route or line-ending effect. The audit corrected an initial line-break hypothesis after exact input hashes showed equal visible text. Future comparisons must wait for the current result to settle and verify response/UI agreement where available.
+
+### What 1.3.2 actually fixes
+
+The old search helper accepted separate `source` and `baseline` texts but measured and retained only the baseline automatically. A source or earlier accepted draft could therefore be absent from the ranked report. The earlier tests largely used source-seeded packets or external selection, so this gap is a demonstrated implementation risk, not a proven explanation for their failed rewrites.
+
+The fixed helper measures every distinct source, baseline and optional `accepted_reference` before search, deduplicates identical text, includes all their windows in its budget and returns them as `protected_references`. It fails before inference if the budget cannot cover those references. Their scores participate in the lowest-measured-hash calculation, while factual approval remains a separate host review.
+
+Thirty deterministic code tests passed, including a saved failing reproduction against the old helper and retained original test fixtures. These tests validate reference preservation, budget accounting and unchanged input/output safeguards; they are not detector measurements. No model weights, preprocessing, ordinary language instructions or generation settings changed. Documentation now requires fixed same-provider comparisons and an explicit source/previous-draft fallback. No general detector-score improvement is claimed for this maintenance release.

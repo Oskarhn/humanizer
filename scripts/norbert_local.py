@@ -45,6 +45,10 @@ class BudgetExhausted(Exception):
     pass
 
 
+class ReferenceBudgetExhausted(BudgetExhausted):
+    pass
+
+
 def text_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
@@ -209,12 +213,13 @@ class MeasurementCache:
         self.requests = 0
         self.cache: dict[str, dict] = {}
 
-    def measure(self, text: str) -> dict:
+    def measure(self, text: str, *, prepared: Prepared | None = None) -> dict:
         self.requests += 1
         if text in self.cache:
             self.cache_hits += 1
             return self.cache[text]
-        prepared = self.scorer.prepare(text)
+        if prepared is None:
+            prepared = self.scorer.prepare(text)
         # ASVS 15.2.2: budget actual ONNX session.run calls, including all windows.
         if self.actual_calls + prepared.calls > self.max_calls:
             raise BudgetExhausted()
@@ -250,6 +255,9 @@ def validate_search_packet(packet: Any) -> tuple[list[tuple[str, ...]], str, str
         raise InputError("Search only supports explicitly Norwegian packets; English workflow is unchanged")
     source = require_text(packet.get("source"), "source")
     baseline = require_text(packet.get("baseline"), "baseline")
+    # ASVS 2.2.1: optional references obey the same bounded-text contract.
+    if "accepted_reference" in packet:
+        require_text(packet["accepted_reference"], "accepted_reference")
     groups = packet.get("groups")
     if not isinstance(groups, list) or not 1 <= len(groups) <= 128:
         raise InputError("groups must contain 1 to 128 paragraph groups")
@@ -274,7 +282,23 @@ def search_packet(packet: dict, scorer: Any, *, beam_width: int = 4, passes: int
     if not 1 <= beam_width <= 256 or not 1 <= passes <= 256 or not 1 <= max_calls <= 256:
         raise InputError("Search limits must be between 1 and 256")
     meter = MeasurementCache(scorer, max_calls)
-    base_score = meter.measure(baseline)
+    reference_names: dict[str, list[str]] = {}
+    for name in ("source", "baseline", "accepted_reference"):
+        if name in packet:
+            reference_names.setdefault(packet[name], []).append(name)
+    # Preflight every distinct mandatory reference, including every window, before
+    # inference. A partially measured reference set cannot protect an earlier best.
+    prepared_references = {text: scorer.prepare(text) for text in reference_names}
+    required_calls = sum(prepared.calls for prepared in prepared_references.values())
+    if required_calls > max_calls:
+        raise ReferenceBudgetExhausted(
+            f"Protected references require {required_calls} inference calls; budget is {max_calls}")
+    protected_references = [
+        {**meter.measure(text, prepared=prepared_references[text]), "names": names,
+         "source_fidelity": FIDELITY}
+        for text, names in reference_names.items()
+    ]
+    base_score = meter.cache[baseline]
     initial = tuple(0 for _ in options)
     beam = [(initial, base_score)]
     measured = {baseline: (initial, base_score)}
@@ -324,9 +348,11 @@ def search_packet(packet: dict, scorer: Any, *, beam_width: int = 4, passes: int
             break
     ranked = sorted(measured.values(), key=lambda r: (r[1]["ai_minus_human_margin"], r[1]["sha256"]))
     top = [{**score, "choices": list(state)} for state, score in ranked if score["text"] != baseline][:3]
+    best_measured = min(meter.cache.values(), key=lambda r: (r["ai_minus_human_margin"], r["sha256"]))
     return {"id": packet["id"], "language": packet["language"], "source_sha256": text_hash(source),
             "baseline": {**base_score, "choices": list(initial)}, "top_candidates": top,
-            "best_measured_sha256": ranked[0][1]["sha256"],
+            "protected_references": protected_references,
+            "best_measured_sha256": best_measured["sha256"],
             "status": "budget_exhausted_measured_results_only" if stopped else "completed",
             "counts": meter.counts(), "search_log": log,
             "settings": {"beam_width": beam_width, "passes": passes, "options_per_group": 4,
@@ -428,9 +454,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     except (InputError, BudgetExhausted, OSError, json.JSONDecodeError, UnicodeError) as exc:
         # ASVS 16.5.1/16.5.3: no raw text, paths or exception payloads in progress/errors.
-        category = "budget_too_small_for_baseline" if isinstance(exc, BudgetExhausted) else type(exc).__name__
+        category = ("budget_too_small_for_protected_references" if isinstance(exc, ReferenceBudgetExhausted)
+                    else "budget_too_small_for_baseline" if isinstance(exc, BudgetExhausted)
+                    else type(exc).__name__)
         print(json.dumps({"status": "failed", "category": category,
-                          "reason": str(exc) if isinstance(exc, InputError) else "Local input/model operation failed"}), file=sys.stderr)
+                          "reason": str(exc) if isinstance(exc, (InputError, ReferenceBudgetExhausted))
+                          else "Local input/model operation failed"}), file=sys.stderr)
         return 2
     except Exception:
         print('{"status":"failed","category":"runtime_error","reason":"Local scoring failed; no output committed"}', file=sys.stderr)

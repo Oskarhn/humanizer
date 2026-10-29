@@ -6,15 +6,17 @@ Use this optional local mode when the user requests Bokmål detector-focused edi
 
 Keep the source and its claim ledger. Record the exact detector artifacts, preprocessing, language, threshold and coverage. The optional local helper uses a pinned Norwegian AI classifier fine-tuned from NorBERT-4-small. Its downloaded weights and author preprocessor keep their own CC BY-SA license and are not bundled with this skill. Do not silently install packages or substitute an incompatible model. Use existing authorized tools, or explain the missing setup.
 
-First score the complete source and a normal source-checked revision. If the ordinary revision already satisfies the user's measured target and writing brief, finish the source check; do not keep rewriting a satisfactory document.
+Keep the source, current draft and any previously accepted version separately. Check the source or accepted version before creating another rewrite. If it already meets the writing brief and the measured target on the requested detector, retain it. Do not introduce a new revision just to produce visibly different wording.
+
+When changes are needed, score the source, normal revision and supplied accepted reference on the same detector/configuration. Preserve those exact texts and their results throughout the comparison. The source is the factual authority; a supplied accepted reference still needs to match the current claims and brief. A low score does not make either text correct or readable.
 
 ## Build meaningful alternatives
 
-When substantive changes are authorized, split the source into paragraph-sized claim groups. Preserve order where required by the method. For each group, produce three complete, grammatical alternatives that retain every distinct fact, numeric association, qualification, exclusion, recommendation and work status. Keep protected quotes, code, formulas, citations and terminology accurate.
+When substantive changes are authorized, split the source into paragraph-sized claim groups. Preserve order where required by the method. Before search, source-check each group alternative and remove new awkward phrasing. For each group, supply three complete, grammatical alternatives that retain every distinct fact, numeric association, qualification, exclusion, recommendation and work status. Keep protected quotes, code, formulas, citations and terminology accurate.
 
 Start from the source claim ledger when the existing wording keeps producing weak alternatives. Write a complete report for the same reader before adjusting local wording. Explore result-first and method-first explanations, clause order and sentence boundaries. Use ordinary technical Bokmål; keep passive voice where it fits, but do not manufacture impersonal nominalizations as a detector tactic. Keep the requested Bokmål/Nynorsk variety. Do not add a persona, anecdote, typo, rare synonym, irrelevant detail, invisible character or padding merely to affect a score. Do not remove an inconvenient limitation. Missing evidence remains missing evidence; it does not become an assertion that the work was never performed.
 
-The supplied helper can rank full-text combinations with bounded beam search. Its default budget is four retained paths, two passes and at most 256 actual local inferences per document. It records cache reuse separately and always retains an evaluated original option. This is a local search over authored alternatives, not a replication of token-level adversarial decoding or model training.
+The supplied helper can rank full-text combinations with bounded beam search. Its default budget is four retained paths, two passes and at most 256 actual local inferences per document. It records cache reuse separately and keeps evaluated source, search baseline and any supplied accepted reference in `protected_references`, outside beam pruning and the three-candidate shortlist. This is a local search over authored alternatives, not a replication of token-level adversarial decoding or model training.
 
 ## Gate before accepting a low score
 
@@ -26,11 +28,18 @@ When detection is the user's stated priority, first retain only faithful version
 
 ## Transfer checks for Bokmål and English
 
-Treat every requested detector as a separate test. Freeze the comparison and selected full texts after source and readability checks, then submit those exact versions through an authorized interface. Record the input hash, provider output field, configuration, date and observed model version. Check that displayed results belong to the current input; a score left on screen from an earlier text is not a new measurement.
+Keep a frozen regression set containing earlier good outputs and their original sources. Compare exact input identities, not case names reused in different studies. A version claim needs the same source/brief, language, detector/model/settings, input route and coverage, plus a shared quality criterion. Repeated generations can differ under one unchanged skill; disclose that variation rather than presenting the lowest sample as a release effect.
 
-Use supported languages for efficacy claims. Sapling's published language list does not include Norwegian, so use English for its meaningful comparison. A Norwegian number from an unsupported service is at most exploratory. A local NorBERT gain does not establish a Copyleaks or Sapling gain. Do not average their different score fields into a single “human percentage.”
+Use immutable source and output hashes, and record text encoding/line endings, generation replicate, workflow mode and provider score field. Keep ordinary editing separate from optional search and experimental methods. If settings or the source change, start a new comparison. Do not silently replace an old successful text with a newly generated approximation.
+
+
+Treat every requested detector as a separate test. Freeze the comparison and selected full texts after source and readability checks, then submit those exact versions through an authorized interface. Record the input hash, provider output field, configuration, date and observed model version. Check that displayed results belong to the current input and have settled. Where an authorized interface exposes the actual response, verify the visible score agrees with that response. A stale result, loading value or animated gauge is not a new measurement. Preserve discrepancies as unverified attempts, not performance evidence.
+
+Use supported languages for efficacy claims. Sapling's published language list does not include Norwegian, so use English for its meaningful comparison. A Norwegian number from an unsupported service is at most exploratory. A local NorBERT gain does not establish a Copyleaks or Sapling gain. Keep a separate best eligible reference per requested provider; do not discard a good result on one because another uses a different scale. Report trade-offs instead of calling them a general upgrade. Do not average their different score fields into a single “human percentage.”
 
 Keep unsuccessful and unchanged cases. Identical before/after text can share one recorded result; label reuse rather than counting a second scan. Respect free limits and stop on a quota or human-verification gate. Record missing comparisons as unavailable. Do not replace a missing baseline with a guessed score, reset a profile to obtain more scans, or silently create a paid/account-dependent workflow.
+
+For an explicitly requested bounded detector comparison, this reference supplies the alternative-search procedure in place of text-hygiene's ordinary one-revision default. It does not authorize endless score chasing, unrequested translation, or extra edits after the writing brief and target are met.
 
 ## Coverage and delivery
 
@@ -107,7 +116,7 @@ Scores on these short schema examples do not establish writing quality or detect
 
 ### Search reviewed alternatives
 
-Save UTF-8 `search-input.json`. `source` is the original source/seed against which the host reviews fidelity. `baseline` is the starting edited draft. Joining every group's `original` with exactly `\n\n` must equal `baseline`, byte for byte after JSON decoding. Every group requires exactly three alternatives, giving four choices including its original.
+Save UTF-8 `search-input.json`. `source` is the factual source against which the host reviews fidelity. `baseline` is the starting draft assembled from the paragraph groups. Optional `accepted_reference` is an earlier retained text for the same source and brief; it is not script-certified approval. All distinct supplied references are measured and retained before search. Joining every group's `original` with exactly `\n\n` must equal `baseline`, byte for byte after JSON decoding. Every group requires exactly three alternatives, giving four choices including its original.
 
 ```json
 [
@@ -116,6 +125,7 @@ Save UTF-8 `search-input.json`. `source` is the original source/seed against whi
     "language": "nb",
     "source": "Båten kom klokken 08.00. Vi ventet på kaia.",
     "baseline": "Klokken 08.00 kom båten.\n\nVi ventet på kaia.",
+    "accepted_reference": "Båten kom klokken 08.00. Vi ventet på kaia.",
     "groups": [
       {
         "original": "Klokken 08.00 kom båten.",
@@ -142,7 +152,7 @@ Save UTF-8 `search-input.json`. `source` is the original source/seed against whi
 python -X utf8 scripts/norbert_local.py search --model-dir path/to/norbert-model --input search-input.json --output search-results.json --guard-numbers
 ```
 
-Search accepts explicit Norwegian language tags (`no`, `nb`, `nn`, `Norwegian`, `Bokmål`, `Nynorsk`). Each evaluated substitution is scored as the full assembled document, with deterministic caching and deduplication. Defaults are beam width 4, two passes and at most 256 actual model inference calls **per document**, including baseline/windows. This bounded search does not guarantee the globally best combination.
+Search accepts explicit Norwegian language tags (`no`, `nb`, `nn`, `Norwegian`, `Bokmål`, `Nynorsk`). Each evaluated substitution is scored as the full assembled document, with deterministic caching and deduplication. Defaults are beam width 4, two passes and at most 256 actual model inference calls **per document**, including all protected-reference windows. This bounded search does not guarantee the globally best combination.
 
 | Flag | Effect |
 | --- | --- |
@@ -154,11 +164,13 @@ Search accepts explicit Norwegian language tags (`no`, `nb`, `nn`, `Norwegian`, 
 | `--guard-word-bounds` | Require candidate word count from 150 through floor(110% of source word count). Omit for the tiny schema example above. |
 | `--windowed` | Explicitly enable full-coverage, nonoverlapping windows for long model inputs. |
 
-The baseline remains available even if an optional guard would reject it. A budget stop returns only already measured candidates; it never promotes an unmeasured candidate. A baseline needing more calls than the budget fails the run.
+`protected_references` keeps every distinct `source`, `baseline` and supplied `accepted_reference`, with all shared role names when texts are identical. Numeric/length guard rejection, beam pruning and the three-candidate limit do not remove them. They have no paragraph-choice path unless the groups actually assemble that text. Every reference still carries `NOT_PERFORMED_BY_SCRIPT` for fidelity.
+
+All reference windows count toward the budget. If their total cannot fit, the helper fails before any inference with `budget_too_small_for_protected_references`, leaving existing output intact. Search uses the remaining budget and reuses identical raw texts. A budget stop returns only already measured candidates; it never promotes an unmeasured candidate.
 
 ### Read results and review the text
 
-Output schema is `norbert-local-helper-v1`. Score rows include raw text/SHA-256, both logits, `ai_probability`, `ai_minus_human_margin`, token counts and window details. Search returns the measured baseline, up to three distinct alternatives, their paragraph choices, `best_measured_sha256`, a search log and actual inference/cache counts. Provenance records model revision/hashes, runtime versions, CPU provider and thread settings. Numeric-only per-document completion progress goes to stderr; it contains no text or IDs.
+Output schema is `norbert-local-helper-v1`. Score rows include raw text/SHA-256, both logits, `ai_probability`, `ai_minus_human_margin`, token counts and window details. Search returns the measured baseline, up to three assembled alternatives, their actual paragraph choices, all `protected_references`, `best_measured_sha256`, a search log and actual inference/cache counts. Resolve the best hash across both generated candidates and protected references. It denotes the lowest measured detector margin, not the best or factually approved prose. Provenance records model revision/hashes, runtime versions, CPU provider and thread settings. Numeric-only per-document completion progress goes to stderr; it contains no text or IDs.
 
 Ranking minimizes the AI-minus-human logit margin. `ai_probability` is the model's two-class softmax score, **not** a calibrated authorship probability, percent AI-written, watermark test or fidelity measurement. Search logs describe measured candidates; they do not explain causal writing features.
 
