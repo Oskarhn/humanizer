@@ -55,3 +55,7 @@ The [archived comparison record](https://github.com/Oskarhn/humanizer/tree/304f7
 - [Stop Slop](https://github.com/hardikpandya/stop-slop/tree/8da1f030185bdfe8471220585162991eaeb970e9)
 
 Choose the workflow that fits your documents. For this project, the practical case is explicit Norwegian support, technical precision, flexible editing depth, and a clean default response. For a specialized English grant-writing or channel-publishing workflow, another skill may fit better.
+
+## Later local detector experiment
+
+Version 1.3.0 adds an optional Norwegian measurement/search helper. Its six-report test compares this project with its own 1.2.0 workflow, not with the other skills above. The [method and final results](BACKGROUND.md#local-norwegian-evaluation) are separate from the original editing comparison. They do not establish a new overall ranking.

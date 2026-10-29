@@ -2,7 +2,7 @@
 
 A writing skill for **Codex and Claude Code**, with particular attention to reports, academic work, and English/Norwegian prose. It helps make the writing clearer while preserving facts, uncertainty, citations, and the author's voice.
 
-English, Norwegian Bokmål, and Nynorsk have specific guidance. No Python, API key, or external service is required by the skill.
+English, Norwegian Bokmål, and Nynorsk have specific guidance. The ordinary writing workflow needs no Python, API key, or external service. An optional Norwegian detector check has a separate local setup.
 
 ## Why choose this Humanizer?
 
@@ -108,6 +108,21 @@ Keep all claims if you rewrite, and tell me what was actually checked.
 
 Both clients can select the skill automatically when relevant. Name it explicitly when you want to ensure it is requested. A local installation does not upload the skill to Claude.ai or another cloud account.
 
+## Optional local Norwegian detector check
+
+Version 1.3.0 adds a tool that can **measure actual NorBERT scores** and search combinations of faithful paragraph alternatives. The assistant writes the alternatives and checks their meaning; a small offline Python helper ranks complete texts. Use this mode explicitly when measured detector response matters. Ordinary editing and the English instructions remain unchanged.
+
+```text
+Use humanizer with the local NorBERT check on this Norwegian report.
+Keep every factual claim, qualification and recommendation. Compare the
+normal revision with faithful alternatives, check readability, and rescore
+any repairs. Report the final measured result, including failures.
+```
+
+In one local test on six new synthetic technical reports, the mean detector score fell from **86.40 to 46.70** on a 0–100 scale. Three of six final texts scored below 50, compared with one of six normal 1.2.0 revisions. Two independent blind LLM reviews found no substantive factual changes in the selected outputs. Readability remained acceptable but scored lower than ordinary editing. Three texts still received an AI verdict; this is a small model-specific result, not a reliable pass rate or a test of commercial detectors.
+
+Read the [workflow, setup and command reference](references/norbert-review.md) before using it. The helper requires a separately downloaded, pinned detector and local runtime. It never downloads models, calls an LLM or uploads text. The [background](BACKGROUND.md#local-norwegian-evaluation) gives the test details and limitations.
+
 ## Update
 
 From the installed `humanizer` directory, review any local changes, then run:
@@ -118,8 +133,8 @@ git pull --ff-only
 
 ## What is included
 
-[SKILL.md](SKILL.md) contains the workflow. The five files in `references/` cover editing decisions, language and voice, genres, examples, and optional text hygiene. `agents/openai.yaml` supplies Codex display metadata.
+[SKILL.md](SKILL.md) contains the workflow. The references cover editing decisions, language and voice, genres, examples, optional text hygiene, and the local Norwegian detector workflow. `scripts/norbert_local.py` is used only by that optional workflow. `agents/openai.yaml` supplies Codex display metadata.
 
 The skill improves writing; it does not certify authorship, guarantee undetectability, or verify watermark removal. Research notes and earlier evaluations remain in the [project history](https://github.com/Oskarhn/humanizer/tree/304f74ebe1c57e5b58bed384cb286e20206eb950).
 
-[MIT license](LICENSE).
+[MIT license](LICENSE). Separately downloaded detector artifacts retain their upstream CC BY-SA 4.0 license; they are not included in this repository or release ZIP.

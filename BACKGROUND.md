@@ -19,7 +19,7 @@ Research on human and model writing helps identify questions worth asking. It do
 - **Vocabulary in context:** Kobak and colleagues study excess vocabulary across biomedical abstracts. Population-level word shifts do not identify the author of one paragraph or justify banning the words. [Author version](https://arxiv.org/abs/2406.07016v5).
 - **Norwegian clarity:** Språkrådet's guidance supports reader-appropriate structure, concrete language, and useful verbs. This informs the Norwegian reference; it is language guidance, not a detector-evasion experiment. [Writing advice](https://sprakradet.no/klarsprak/om-skriving/generelle-skriverad-bokmal/).
 
-The earlier [research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md) document the broader reading and access limits. The review includes research papers, provider documentation, and language guidance; those are different kinds of evidence. No cited study validates this complete skill or establishes a Norwegian detector-resistance effect.
+The earlier [research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md) document the broader reading and access limits. The review includes research papers, provider documentation, and language guidance; those are different kinds of evidence. No cited external study validates this complete skill or establishes its Norwegian detector effect. The separate local test below measures a narrower result.
 
 ## Text-hygiene source review
 
@@ -31,6 +31,37 @@ A small old/new regression used eight synthetic tasks, including exact character
 
 ## What the package promises
 
-The instructions prioritize meaning, author intent, genre, and natural expression. They do not impose a human persona, intentional mistakes, sentence-length quotas, or a universal punctuation blacklist. The five supporting references supply practical editing guidance, with character inspection loaded only when relevant.
+The instructions prioritize meaning, author intent, genre, and natural expression. They do not impose a human persona, intentional mistakes, sentence-length quotas, or a universal punctuation blacklist. The supporting references supply practical editing guidance; character inspection and local detector measurement are loaded only when relevant.
 
 The result should be assessed against the original and the brief. A natural-sounding revision does not certify authorship, establish that a detector will accept it, or verify the absence of a statistical watermark. See the [comparison](COMPARISON.md) for the actual local evaluation and its limitations.
+
+## Detector research and the optional tool
+
+The local [Norwegian classifier](https://huggingface.co/pegesund/norwegian-ai-detector/tree/0df563e67066e1eadd08eaceac80f1db4ed71f90) is fine-tuned from NorBERT-4-small. It compares learned contextual representations, rather than applying a public list of forbidden words. The helper preserves the author's preprocessing and class order, uses the pinned INT8 ONNX export, and checks artifact hashes. Its default 1,024-token limit follows the published inference example. Longer texts require an explicit, separately labelled full-coverage window protocol.
+
+The user-supplied [Pangram 4 technical report](https://pangram-public.s3.us-east-1.amazonaws.com/pdf/pangram_4_technical_report.pdf) describes segment/token models, mixed-writing labels and training on humanized examples. The [4.1 model card](https://www.pangram.com/research/model-card/pangram-4-1) adds class probabilities and does not list Norwegian among its officially supported languages. [Copyleaks' V11 methodology](https://copyleaks.com/ai-detector/testing-methodology) documents vendor-run API evaluation, but does not expose reproducible model weights. These sources inform what to measure; they do not reveal a wording recipe that defeats either service.
+
+Research methods such as [HIP](https://github.com/YixuanEvenXu/humanization-by-iterative-paraphrasing), [adversarial paraphrasing](https://github.com/chengez/Adversarial-Paraphrasing) and [HALO](https://arxiv.org/abs/2609.31876v1) use model adaptation, decoding tools or separate model runtimes. Their reported effects do not transfer merely by copying prompt instructions. This package implements its own smaller, bounded search over paragraph alternatives. It does not bundle those projects, train a paraphraser or reproduce token-level adversarial decoding.
+
+## Local Norwegian evaluation
+
+On 29 October 2026, four previously tested reports were used for development, followed by six new synthetic reports: three Bokmål and three Nynorsk, 197–209 words each. Their source claims and arithmetic were checked separately before rewriting. A normal 1.2.0 revision and three alternatives per source paragraph were generated in separate contexts. The detector and recipe were frozen before this fresh evaluation.
+
+Search used beam width four, two passes, full-text scoring, numeric/length screens and a maximum of 256 actual inferences per document. It made 252 inference calls across the six documents, with 258 separately counted cache hits. Source/baseline scoring added twelve calls. Two blind LLM reviewers compared the top three texts and normal revision against each source. Selection required factual fidelity and readability/register of at least four out of five from both reviewers.
+
+Two one-pass language/readability repairs were rescored and re-reviewed, adding two calls. The probe text illustrates why this matters: its lowest uncorrected score was 4.19, but an awkward numerical sentence failed the readability gate. After repair, its score was 72.80. The table uses the final text's score.
+
+| Report | Normal 1.2.0 | Local search, after review |
+| --- | ---: | ---: |
+| LED current driver (Bokmål) | 18.59 | 1.82 |
+| Sampling and quantization (Bokmål) | 100.00 | 22.94 |
+| Probe response (Bokmål) | 99.85 | 72.80 |
+| Rectifier and ripple (Nynorsk) | 99.99 | 73.64 |
+| Encoder timing (Nynorsk) | 99.97 | 9.46 |
+| Repeatability statistics (Nynorsk) | 100.00 | 99.57 |
+
+Values are the model's two-class AI softmax scores multiplied by 100. They are not the fraction of words written by AI or calibrated authorship probabilities. The mean fell from 86.40 to 46.70; all six final scores were lower, and three crossed below 50. The planned stronger target required four of six below 50 and was **not met**. All selected texts passed both source-fidelity and prose-quality reviews after the disclosed repairs. Mean readability was 4.08/5 for the selected texts versus 5/5 for ordinary editing; mean register was 4.92 versus 5. These are model judgments, but they indicate a prose-quality cost. Prefer ordinary editing when fluent expression matters more than the measured detector response.
+
+This supports a useful local measurement capability and an improvement in this small sample. It does not establish reliability across reports, generators, long documents or detector versions. The sources were synthetic; the reviews were LLM-based, with no independent human panel. Exact host model IDs and token usage were unavailable. Native Claude generation, Pangram/Copyleaks/Sapling transfer, detector accuracy, and watermark removal were not tested by this evaluation. Ordinary/English editing instructions and the five existing practical references were preserved.
+
+The evaluation data, raw candidates, reviews, query logs and development failures are kept outside the installable package. They are not bundled in the release ZIP. The source and setup instructions are sufficient to inspect the method and run a new local test; the small test above should not be treated as an independently reproduced benchmark.

@@ -3,7 +3,7 @@ name: humanizer
 description: Draft or revise substantial reader-facing prose so it sounds natural, specific, and consistent with the author's voice. Use for documents, reports, articles, emails, and requests to humanize, de-AI, or review AI-sounding text. Preserve facts, uncertainty, citations, and genre; do not apply to code or structured data unless prose editing is requested.
 license: MIT
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
   evidence-reviewed: "2026-10-29"
 ---
 
@@ -50,6 +50,7 @@ Ask a focused question only if the answer would materially change the work and c
 - For academic/technical writing, business documents, journalism, or fiction, read the relevant section of [genres.md](references/genres.md).
 - For difficult before/after decisions, consult [examples.md](references/examples.md). These are original teaching examples, not phrases to copy into every output.
 - For invisible-character cleanup, mixed-script text, or watermark/detector-focused editing, read [text-hygiene.md](references/text-hygiene.md). Keep this extra pass out of ordinary short edits unless an actual problem is visible.
+- For an explicit Norwegian detector-focused rewrite with a compatible local NorBERT detector, read [norbert-review.md](references/norbert-review.md). Keep the normal and English workflows unchanged.
 
 ## Edit in four passes
 
