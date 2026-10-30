@@ -3,8 +3,8 @@ name: humanizer
 description: Draft or revise substantial reader-facing prose so it sounds natural, specific, and consistent with the author's voice. Use for documents, reports, articles, emails, and requests to humanize, de-AI, or review AI-sounding text. Preserve facts, uncertainty, citations, and genre; do not apply to code or structured data unless prose editing is requested.
 license: MIT
 metadata:
-  version: "1.3.2"
-  evidence-reviewed: "2026-10-29"
+  version: "1.3.3"
+  evidence-reviewed: "2026-10-30"
 ---
 
 # Humanizer
@@ -48,6 +48,7 @@ Ask a focused question only if the answer would materially change the work and c
 - For standard or deep editing, read [editing.md](references/editing.md). For a short light edit, the workflow below is sufficient.
 - For Norwegian or English-specific choices and voice calibration, read [languages-and-voice.md](references/languages-and-voice.md).
 - For academic/technical writing, business documents, journalism, or fiction, read the relevant section of [genres.md](references/genres.md).
+- For a Bokmål technical report whose brief permits reorganizing its presentation, read [bokmal-reports.md](references/bokmal-reports.md). It covers data tables, calculations, claim preservation and exported text; use it only when it helps this report.
 - For difficult before/after decisions, consult [examples.md](references/examples.md). These are original teaching examples, not phrases to copy into every output.
 - For invisible-character cleanup, mixed-script text, or watermark/detector-focused editing, read [text-hygiene.md](references/text-hygiene.md). Keep this extra pass out of ordinary short edits unless an actual problem is visible.
 - For an explicit Bokmål detector-focused rewrite with a compatible local NorBERT detector, read [norbert-review.md](references/norbert-review.md). For requested Bokmål/English detector comparisons, also read its transfer-check section. Keep ordinary editing and English language guidance unchanged.

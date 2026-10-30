@@ -10,6 +10,7 @@ Choose it when a fluent rewrite must preserve what the document actually establi
 
 - **Keep the evidence intact.** A simulation stays a simulation. Missing data do not become proof that nothing happened. Measurements, units, citations, and qualifications stay attached to their claims.
 - **Write natural Bokmål as well as English.** Dedicated guidance covers decimal commas, compounds, English calques, and the writer's established word forms.
+- **Organize technical reports around their evidence.** An optional Bokmål mode uses useful titles and labelled data tables when they help, while keeping calculations, assumptions and limitations explicit. It starts with the smallest useful edit.
 - **Keep the right register.** A methods section can remain formal. Useful passive voice, technical terms, headings, and conclusions can stay. There is no universal ban on particular words or punctuation.
 - **Improve the argument before swapping words.** The skill examines paragraph purpose, repetition, and logical connections, then compares the revision with the source.
 - **Match the author without inventing a persona.** Writing samples guide expression; they do not supply new experiences or opinions. The default result is one revised text, with an explanation when requested.
@@ -114,6 +115,14 @@ Humanizer's ordinary writing guidance has not been shown to lower commercial-det
 
 The optional local tool measures a pinned NorBERT classifier and compares complete texts. **Version 1.3.2 fixes reference retention:** source, working draft and an optional earlier accepted text are measured and kept outside the search shortlist. If an existing text already satisfies the brief and measured target, keep it. A lower score still requires source fidelity and no readability loss.
 
+**Version 1.3.3 adds a Bokmål technical-report mode.** In a small synthetic pilot, seven reports scored below 50 on the official NorBERT website after source-preserving reorganization and after PDF text extraction. Six of seven also scored below 50 as raw Markdown. Two blind LLM review contexts approved content preservation and matched readability. A title alone was sufficient in five cases, so the workflow checks the smaller edit first. These results concern this test set and detector; they do not establish a general advantage over 1.3.2 or other humanizers. [Exact results, controls and limitations](EVALUATION.md).
+
+```text
+Use humanizer on this Bokmål technical report. Keep every value,
+assumption and limitation. Start with the smallest useful edit; use a
+title or data table only when it helps the reader. Preserve my original.
+```
+
 ```text
 Use humanizer to review this report. Keep the original and my previously
 accepted draft. If you compare detector results, use the same text, service
@@ -135,7 +144,7 @@ git pull --ff-only
 
 ## What is included
 
-[SKILL.md](SKILL.md) contains the workflow. The references cover editing decisions, language and voice, genres, examples, optional text hygiene, and the local Norwegian detector workflow. `scripts/norbert_local.py` is used only by that optional workflow. `agents/openai.yaml` supplies Codex display metadata.
+[SKILL.md](SKILL.md) contains the workflow. The references cover editing decisions, language and voice, genres, examples, Bokmål technical reports, optional text hygiene, and the local Norwegian detector workflow. `scripts/norbert_local.py` is used only by that optional workflow. `agents/openai.yaml` supplies Codex display metadata. [EVALUATION.md](EVALUATION.md) documents the small report-layout pilot; raw development data are outside the installable package.
 
 The skill improves writing; it does not certify authorship, guarantee undetectability, or verify watermark removal. Research notes and earlier evaluations remain in the [project history](https://github.com/Oskarhn/humanizer/tree/304f74ebe1c57e5b58bed384cb286e20206eb950).
 
