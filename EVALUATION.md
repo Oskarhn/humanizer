@@ -2,6 +2,8 @@
 
 This pilot tested source-preserving report presentation on the official [NorBERT website](https://pegesund.github.io/norsk-ai-detektor/) on 30 October 2026. It supports an optional workflow for this genre. It is not a general detector-bypass benchmark or proof that version numbers measure progressively lower detectability.
 
+For the later ordinary-editing comparison against other skills and six actual detector websites, see [the 31 October benchmark](BENCHMARKS.md). Its different generations and workflow are reported separately; neither study replaces the other's exact-text results.
+
 ## What was compared
 
 The set contained six previously used synthetic engineering texts and three newly authored synthetic fixtures. Seven high-scoring sources received one report alternative each. Two already-low sources were retained unchanged as controls. The initial alternatives were frozen before scoring; the later heading controls and one documented source-aware clarification are reported separately below.

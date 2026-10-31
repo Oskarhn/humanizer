@@ -2,6 +2,8 @@
 
 This comparison concerns the source versions reviewed on 26 October 2026. It helps explain this project's intended fit; it does not establish a best editor for every language or document. Other projects may have changed since those snapshots.
 
+A newer [same-source browser comparison, 31 October 2026](BENCHMARKS.md), tests 1.3.3 against Blader, Academic Humanizer, Hannsxpeter and a no-skill control. It reports detector results separately from content/readability checks, including this project's losses. The older editing trial below must not be relabeled as that newer experiment.
+
 ## Differences that affect everyday use
 
 **This Humanizer** combines explicit English, Bokmål, and Nynorsk guidance with technical and academic preservation rules. It distinguishes calculations, simulations, measurements, and verified results; it also checks actors, obligations, uncertainty, and logical connections. Its default output is the revised prose. These priorities suit a report writer who wants an editor that protects the content while improving its expression.

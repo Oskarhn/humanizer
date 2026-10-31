@@ -113,6 +113,8 @@ Both clients can select the skill automatically when relevant. Name it explicitl
 
 Humanizer's ordinary writing guidance has not been shown to lower commercial-detector scores reliably. The core English/Bokmål editing references remain the same as in 1.2.0. Later version numbers describe workflow and reliability changes, not a trained model becoming progressively less detectable.
 
+The [31 October browser comparison](BENCHMARKS.md) tests 1.3.3, Blader, Academic Humanizer, Hannsxpeter and a no-skill control on the same Bokmål and English texts. It includes all outcomes, quality exclusions and cases where this skill loses. Full texts, structured results and a review viewer are available as a separate download.
+
 The optional local tool measures a pinned NorBERT classifier and compares complete texts. **Version 1.3.2 fixes reference retention:** source, working draft and an optional earlier accepted text are measured and kept outside the search shortlist. If an existing text already satisfies the brief and measured target, keep it. A lower score still requires source fidelity and no readability loss.
 
 **Version 1.3.3 adds a Bokmål technical-report mode.** In a small synthetic pilot, seven reports scored below 50 on the official NorBERT website after source-preserving reorganization and after PDF text extraction. Six of seven also scored below 50 as raw Markdown. Two blind LLM review contexts approved content preservation and matched readability. A title alone was sufficient in five cases, so the workflow checks the smaller edit first. These results concern this test set and detector; they do not establish a general advantage over 1.3.2 or other humanizers. [Exact results, controls and limitations](EVALUATION.md).
