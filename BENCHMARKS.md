@@ -1,5 +1,7 @@
 # Browser comparison: 31 October 2026
 
+For the later direct comparison of two versions, see [1.4.0 versus 1.3.3, 4 November 2026](VERSION-COMPARISON.md). It is a separate generation and website run; the results below retain their original scope.
+
 Humanizer 1.3.3 did not consistently outperform the other skills or meet the detector target. Academic Humanizer won a clear English Sapling comparison; Blader scored lower on the Norwegian Originality example. Our skill lowered one Isgen result, while every tested alternative remained at 100 on Pangram. The complete dataset includes these losses, unchanged texts, quality flags and failed attempts.
 
 [Download the full report, texts and results](https://github.com/Oskarhn/humanizer/releases/download/v1.3.3/humanizer-comparison-20261031.zip) · [SHA-256 checksum](https://github.com/Oskarhn/humanizer/releases/download/v1.3.3/humanizer-comparison-20261031.sha256)
