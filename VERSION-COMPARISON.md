@@ -66,3 +66,22 @@ Isgen was unavailable: the existing tab showed a network-error page, and the bro
 The archive contains every source/output, prompt, frozen version manifest, both reviews, all scores, the recovered wait event, replay records, analysis scripts and a single HTML review viewer. Its template loads external fonts and an optional spreadsheet library; the embedded JSON/CSV data and Python analysis can be read without those dependencies. Scores from different services are not pooled, and missing results are not treated as zero.
 
 This test supports keeping the 1.4.0 audit features for their documented inspection purposes. It does **not** support choosing 1.4.0 as a reliably better detector-avoidance version. The writing instructions, installed copies and version tags were kept unchanged during the test.
+
+## Follow-up: rebuilding from technical claims
+
+A later bounded pilot on 4 November preserved the exact ZeroGPT successes and tried a different workflow: two independent writing contexts rebuilt six explanations from an atomic claim ledger without seeing source sentence frames. Eight of twelve drafts passed both new blind fidelity/readability reviews; four were excluded before scoring. These remained the same synthetic development sources, not held-out material.
+
+| Eligible new drafts | Target score range | Below 50 on target | Below 50 on ZeroGPT |
+| --- | ---: | ---: | ---: |
+| Three Bokmål drafts / NorBERT | 99.85–99.99 | 0/3 | 3/3 |
+| Five English drafts / Sapling | 99.9–100 | 0/5 | 4/5 |
+
+The six retained references reproduced their ZeroGPT scores exactly: 0, 0, 0, 0, 14.7 and 29. Four of these references were unchanged sources, so their low scores were not created by rewriting. No new English draft beat its retained reference. The stable skill and successful exact texts were kept; no new writing release was promoted.
+
+The exact Academic confidence-interval text that had scored 0.1 twice on Sapling on 31 October now scored **99.4 twice**, with an unchanged text hash. This does not establish the cause of the change, but it means that historical success did not reproduce in the current website checks. The earlier score cannot substantiate a current bypass claim.
+
+The English HIP 1.7B pilot produced no draft: its watchdog ended the monitored launcher after 37 seconds for GPU memory pressure, and both recorded launcher/interpreter PIDs were absent in a later check. The remaining two runs were not attempted. Three historical PDF-extracted Bokmål report representations were retained but not scanned because a current review rejected the readability of their plain-text table serialization; the original rendered reports were not newly regraded. These unavailable arms are not scored failures or successes.
+
+The follow-up contains 35 new website observations, including one exact-text repeat. Its matrix distinguishes 34 directly measured rows, eight same-hash reuses and 14 quality-gated `NOT_RUN` rows. NorBERT ran in the actual author website, Sapling through its advertised page tool with visible-result verification, and ZeroGPT through its form. No Python classifier supplied scores.
+
+[Full follow-up, all drafts, exclusions, scores and reviews](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-source-rebuild-20261104.zip) · [Checksum](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-source-rebuild-20261104.sha256)

@@ -119,6 +119,8 @@ Version 1.4.0 adds an optional read-only UTF-8 audit and protected-literal compa
 
 The later [same-source test of 1.4.0 versus 1.3.3](VERSION-COMPARISON.md) found a limited English ZeroGPT gain, but no clear general improvement without quality exclusions. It includes all scores, version-to-version losses and the full source/readability review.
 
+A [follow-up using independent reconstruction from technical claims](VERSION-COMPARISON.md#follow-up-rebuilding-from-technical-claims) preserved the exact ZeroGPT successes but did not reach below 50 on NorBERT or Sapling. It includes the failed attempts and an earlier Sapling success that no longer reproduced. No new writing release was promoted.
+
 The optional local tool measures a pinned NorBERT classifier and compares complete texts. **Version 1.3.2 fixes reference retention:** source, working draft and an optional earlier accepted text are measured and kept outside the search shortlist. If an existing text already satisfies the brief and measured target, keep it. A lower score still requires source fidelity and no readability loss.
 
 **Version 1.3.3 adds a Bokmål technical-report mode.** In a small synthetic pilot, seven reports scored below 50 on the official NorBERT website after source-preserving reorganization and after PDF text extraction. Six of seven also scored below 50 as raw Markdown. Two blind LLM review contexts approved content preservation and matched readability. A title alone was sufficient in five cases, so the workflow checks the smaller edit first. These results concern this test set and detector; they do not establish a general advantage over 1.3.2 or other humanizers. [Exact results, controls and limitations](EVALUATION.md).
