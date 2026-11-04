@@ -85,3 +85,17 @@ The English HIP 1.7B pilot produced no draft: its watchdog ended the monitored l
 The follow-up contains 35 new website observations, including one exact-text repeat. Its matrix distinguishes 34 directly measured rows, eight same-hash reuses and 14 quality-gated `NOT_RUN` rows. NorBERT ran in the actual author website, Sapling through its advertised page tool with visible-result verification, and ZeroGPT through its form. No Python classifier supplied scores.
 
 [Full follow-up, all drafts, exclusions, scores and reviews](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-source-rebuild-20261104.zip) · [Checksum](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-source-rebuild-20261104.sha256)
+
+## Reproduction audit: Sapling and NorBERT
+
+The subsequent 4 November audit found a documented service change: [Sapling's API documentation](https://sapling.ai/docs/api/detector/#november-2026-model-upgrades) records a 3 November default-model upgrade, from English `20260820` to `20261102`, including rescoring cached results. This is the strongest supported explanation for the historical 0.1-to-99.4 jump. The exact versions were not returned in our page-tool logs, so a pinned old/new-model causal comparison remains unperformed.
+
+The exact Academic input still scored 99.4 through the advertised page tool, ordinary button and ordinary page reload. The old Humanizer comparator changed from 88.7 to 99.9 through both current methods. Complete text identities and score meanings were checked. Provider examples agreed between preset buttons and page-tool checks; they are interface controls, not independent accuracy evidence.
+
+**All 47 archived NorBERT inputs reproduced their old displayed scores exactly**, including high sources, low reports, Markdown, tab-separated text, archived PDF extractions and heading/body controls. Three further checks after page reload also matched. The retained final tab-separated/PDF reports remained at 0.08, 3.76, 0.14, 0.05, 0.07, 0.04 and 0.05. Historical quality exclusions remain excluded; the audit did not rewrite reports or newly review PDF readability.
+
+These exact retained reports differ from the newly generated prose in the failed follow-up. Their old results have not disappeared. Reproducing them does not establish that every new text generated with the skill will achieve the same response.
+
+The audit contains 61 website observations: 50 NorBERT and eleven Sapling. The 25 retained ZeroGPT records covering 24 distinct texts remain byte-for-byte unchanged and were not rescanned. Writing instructions, installations and version tags were kept unchanged.
+
+[Full reproduction audit and all scores](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-detector-reproduction-20261104.zip) · [Checksum](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-detector-reproduction-20261104.sha256)
