@@ -115,6 +115,8 @@ Humanizer's ordinary writing guidance has not been shown to lower commercial-det
 
 The [31 October browser comparison](BENCHMARKS.md) tests 1.3.3, Blader, Academic Humanizer, Hannsxpeter and a no-skill control on the same Bokmål and English texts. It includes all outcomes, quality exclusions and cases where this skill loses. Full texts, structured results and a review viewer are available as a separate download.
 
+Version 1.4.0 adds an optional read-only UTF-8 audit and protected-literal comparison, plus focused checks for unnecessary additions and unsupported qualifications. The workflow was informed by watermarks-remover and Sepia, with Turnitout's documented protection approach reviewed separately. [Usage, sources and limits](references/text-hygiene.md). These changes have not been shown to reduce commercial-detector scores; the 1.3.3 benchmark remains unchanged.
+
 The optional local tool measures a pinned NorBERT classifier and compares complete texts. **Version 1.3.2 fixes reference retention:** source, working draft and an optional earlier accepted text are measured and kept outside the search shortlist. If an existing text already satisfies the brief and measured target, keep it. A lower score still requires source fidelity and no readability loss.
 
 **Version 1.3.3 adds a Bokmål technical-report mode.** In a small synthetic pilot, seven reports scored below 50 on the official NorBERT website after source-preserving reorganization and after PDF text extraction. Six of seven also scored below 50 as raw Markdown. Two blind LLM review contexts approved content preservation and matched readability. A title alone was sufficient in five cases, so the workflow checks the smaller edit first. These results concern this test set and detector; they do not establish a general advantage over 1.3.2 or other humanizers. [Exact results, controls and limitations](EVALUATION.md).
@@ -146,7 +148,7 @@ git pull --ff-only
 
 ## What is included
 
-[SKILL.md](SKILL.md) contains the workflow. The references cover editing decisions, language and voice, genres, examples, Bokmål technical reports, optional text hygiene, and the local Norwegian detector workflow. `scripts/norbert_local.py` is used only by that optional workflow. `agents/openai.yaml` supplies Codex display metadata. [EVALUATION.md](EVALUATION.md) documents the small report-layout pilot; raw development data are outside the installable package.
+[SKILL.md](SKILL.md) contains the workflow. The references cover editing decisions, language and voice, genres, examples, Bokmål technical reports, optional text hygiene, and the local Norwegian detector workflow. `scripts/norbert_local.py` supports optional detector measurement; `scripts/text_audit.py` provides read-only character inspection and protected-literal checks. `agents/openai.yaml` supplies Codex display metadata. [EVALUATION.md](EVALUATION.md) documents the report-layout pilot and the later audit-helper checks; raw development data are outside the installable package.
 
 The skill improves writing; it does not certify authorship, guarantee undetectability, or verify watermark removal. Research notes and earlier evaluations remain in the [project history](https://github.com/Oskarhn/humanizer/tree/304f74ebe1c57e5b58bed384cb286e20206eb950).
 

@@ -35,6 +35,8 @@ Common repairs:
 
 Do not flatten exposition into bullet fragments by default. Lists are useful for parallel actions or alternatives; prose is usually better for developing an argument. Keep headings that help navigation, especially in long documents.
 
+For a long report, trace the question each paragraph answers before changing its sentences. Check whether a later paragraph adds evidence or merely announces the same point again. Keep required method/result sequencing and the document's established format; reorganizing for the reader does not require making the structure irregular.
+
 ## 3. Sentence construction
 
 Noun-heavy writing can hide the action: “implementation of an assessment” may simply mean “assess.” Recover the verb when it keeps the technical meaning. A term such as “randomization” may name a precise procedure and should remain.
@@ -104,5 +106,9 @@ When two source claims conflict, preserve and flag the conflict rather than arbi
 ## 8. Stop when the text is doing its job
 
 After the initial rewrite, repair actual residual problems and run the source comparison. Retain a strong passage unchanged. If a new version is merely different, prefer the one closer to the writer's voice and intended meaning. “More edited” is not a quality measure.
+
+Check additions and replacements separately. For added wording, ask what information or necessary grammar would be lost if it were removed. Drop additions that only surround an unchanged claim with commentary. For replaced wording, compare with the original again: keep the shorter sound version when the replacement adds nothing. Retain repairs that make a sentence grammatical or resolve a real ambiguity; this is not a rule to minimize every word count.
+
+These checks are editorial adaptations of Sepia's professional revision workflow, not a measured detector-avoidance method. See the source notes in [text-hygiene.md](text-hygiene.md#source-and-scope).
 
 Research IDs refer to the [archived research notes](https://github.com/Oskarhn/humanizer/blob/304f74ebe1c57e5b58bed384cb286e20206eb950/references/evidence.md).

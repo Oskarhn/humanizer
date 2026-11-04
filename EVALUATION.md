@@ -59,3 +59,15 @@ The loaded 91,423,784-byte FP16 model had SHA-256 `3131fdf3cf47aa95ee883f20d9cfe
 Tables and titles are choices of report presentation. Use them when appropriate for the reader and assignment. Preserve a good source, and retain a faithful earlier version when a proposed revision is less readable or lacks a verified improvement.
 
 The release's optional evaluation archive contains the synthetic sources, exact report texts, scores, hashes and review records. It is separate from the installable skill. Earlier versions and their results remain preserved.
+
+## Version 1.4.0: read-only audit and editorial checks
+
+On 4 November 2026, the update reviewed watermarks-remover at `5a62be6338d2812372b1da440e55c82922f97d53`, Sepia at `0eb11d6c64c962fcc35f596c167c6e38045d6cb8`, and Turnitout at `133de29d215ff30089a53004971256165aed1462`. Watermarks-remover's text pipeline was unchanged from the earlier review; only three dependency pins differed. Sepia informed focused checks for paragraph purpose, unnecessary additions/replacements and unsupported qualifications. Turnitout's public documentation informed a separately implemented literal-preservation check; its proprietary, unpublished core was not copied or tested.
+
+The new standard-library helper passed 21 functional tests covering read-only behavior, byte hashes, UTF-8/BOM/CRLF handling, position units, multilingual joiners, emoji selectors, mathematical format characters, mixed scripts, bounded reports, invalid/binary/oversized inputs and source-bound literal checking. It also inspected all 66 frozen inputs from the earlier comparison: each exact-text file remained byte-identical, and none had findings in the helper's defined character categories. This is not an AI-detector result.
+
+An independent agent exercised the revised skill on new synthetic Bokmål and English examples using an existing Python 3.10 installation. It removed exactly one verified U+200B copy/paste insertion while preserving the original file, a full formula, reference and Persian/emoji quotation. Three legitimate Unicode findings remained after cleanup. Its English light edit removed only “A total of ” from a reporting sentence and introduced no new qualification or claim.
+
+The same forward exercise caught a changed protected current literal, but a deliberately reversed surrounding negation still passed the literal check. The reviewer rejected that revision on meaning. This confirms an important boundary: exact-string counts supplement, and cannot replace, a complete source comparison. The exercise is one fallible model review, not a blinded superiority study or human-reader evaluation.
+
+No new commercial-detector or statistical-watermark measurements were performed for 1.4.0. The earlier 1.3.3 scores remain attached to their actual texts and workflow. The optional [1.4.0 evaluation archive](https://github.com/Oskarhn/humanizer/releases/download/v1.4.0/humanizer-v1.4.0-evaluation.zip) contains the fixtures, observed outputs and checks separately from the user package.

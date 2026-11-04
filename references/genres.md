@@ -14,6 +14,7 @@ Make the argument and method easier to follow while preserving disciplinary prec
 - “Not statistically significant” does not mean “no effect.” “Consistent with” does not mean “proves.” An observational association remains an association.
 - Keep necessary headings and conclusions. An abstract often needs an explicit result and limitation even when a social post would sound repetitive.
 - In edit-only work, do not add new literature or silently repair references from memory. Flag a questionable citation for a separate verification step.
+- Treat a new limitation, negative conclusion, recommendation or admission as substantive content. A cautious-sounding “this does not establish…” can still add a claim absent from the source. Offer a needed factual correction or qualification separately when it needs verification or the user's decision.
 
 In engineering reports, distinguish design calculations, simulation, bench measurements, field observations, and certification. Preserve whether work is planned, executed, or verified, and by what method. Improved prose must not turn a simulated limit into physical evidence.
 
