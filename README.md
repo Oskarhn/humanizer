@@ -113,6 +113,8 @@ Both clients can select the skill automatically when relevant. Name it explicitl
 
 The [25 November GitHub watermark-tool study](WATERMARK-STUDY.md) includes current source reviews, actual local rewrite methods, factual/readability checks and browser measurements. It found no qualified score improvement over the unchanged technical sources. Failed experiments and rejected evidence are included; no new rewrite version was promoted from that comparison.
 
+The [follow-up on eight new technical texts](FRESH-TEXT-STUDY.md) found three retained Bokmål revisions below 50 on NorBERT, with independent model reviews approving content and readability. English scores remained high. It separates the predefined comparison from later experiments and includes all failures; the skill remains at 1.4.0.
+
 Humanizer's ordinary writing guidance has not been shown to lower commercial-detector scores reliably. The core English/Bokmål editing references remain the same as in 1.2.0. Later version numbers describe workflow and reliability changes, not a trained model becoming progressively less detectable.
 
 The [31 October browser comparison](BENCHMARKS.md) tests 1.3.3, Blader, Academic Humanizer, Hannsxpeter and a no-skill control on the same Bokmål and English texts. It includes all outcomes, quality exclusions and cases where this skill loses. Full texts, structured results and a review viewer are available as a separate download.
